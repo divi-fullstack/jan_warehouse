@@ -1,7 +1,6 @@
 import React from "react";
-import SideNav from "../components/sideNav";
-
 import { makeStyles } from "@material-ui/core/styles";
+import SideNav from "../components/sideNav";
 const useStyles = makeStyles((theme) => ({
   root: {},
   pageSection: {
@@ -10,14 +9,14 @@ const useStyles = makeStyles((theme) => ({
     overflowY: "auto",
   },
 }));
-
-const Layout: React.FC<any> = ({ rootClasses, children }) => {
+  
+const DashboardLayout: React.FC<{ rootClasses: string, children: React.ReactNode }> = ({ rootClasses, children }) => {
   const classes = useStyles();
   return (
     <main className={`wrapper ${rootClasses} ${classes.root}`}>
-      <SideNav />
+      <SideNav/>
       <div className={`page-section ${classes.pageSection}`}>{children}</div>
     </main>
   );
 };
-export default Layout;
+export default DashboardLayout;

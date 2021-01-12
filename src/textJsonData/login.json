@@ -1,0 +1,13 @@
+{
+    "title":"Sign in",
+    "form":{
+        "labels":{
+            "email":"Email Address",
+            "password":"Password",
+            "remember":"Remember me",
+            "submitBtn":"SIGN IN",
+            "forgotPassword":"Forgot Password?",
+            "signUp":"Don't have an account? Sign Up"
+        }
+    }
+}

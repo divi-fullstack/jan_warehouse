@@ -1,5 +1,6 @@
 {
     "site":{
-        "title":"Warehouse"
+        "title":"Warehouse",
+        "copyright":"Copyright © "
     }
 }
