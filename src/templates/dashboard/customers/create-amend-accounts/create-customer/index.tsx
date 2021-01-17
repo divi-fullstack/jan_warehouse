@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme: Theme) =>
             backgroundColor: theme.palette.background.paper,
         },
         appbar:{
-            marginLeft:230,
+            marginLeft:240,
             left:0,
             width:'auto'
         }

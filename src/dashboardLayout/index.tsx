@@ -4,13 +4,13 @@ import SideNav from "../components/sideNav";
 const useStyles = makeStyles((theme) => ({
   root: {},
   pageSection: {
-    marginLeft: 230,
+    marginLeft: 240,
     height: "100vh",
     overflowY: "auto",
   },
 }));
-  
-const DashboardLayout: React.FC<{ rootClasses: string, children: React.ReactNode }> = ({ rootClasses, children }) => {
+
+const DashboardLayout: React.FC<{ rootClasses: string, children: React.ReactNode}> = ({ rootClasses, children }) => {
   const classes = useStyles();
   return (
     <main className={`wrapper ${rootClasses} ${classes.root}`}>

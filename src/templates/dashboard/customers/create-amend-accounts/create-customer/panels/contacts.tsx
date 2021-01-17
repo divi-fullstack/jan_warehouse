@@ -40,7 +40,7 @@ const Contacts: React.FC<{}> = () => {
 
     const [addContactModal, setAddContactModal] = useState(false)
 
-    const handleAddContactModal = (action: boolean) => {
+    const handleAddContactModal = (action:boolean) => {
         setAddContactModal(action)
     }
     return (

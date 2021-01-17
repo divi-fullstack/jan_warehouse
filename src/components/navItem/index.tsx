@@ -1,52 +1,113 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { Link } from "react-router-dom";
-import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
-const useStyles = makeStyles((theme) => ({
-  root: {
-    "& a": {
-      padding: '3px 15px 3px 23px',
-      textDecoration: "none",
-      fontWeight: 400,
-      color: "#313131",
-      marginBottom: 1,
-      fontSize: 12,
-      display: 'flex',
-      alignItems: 'center',
-      "& label": {
-        marginLeft: 5,
-        cursor: 'inherit',
-        whiteSpace: 'nowrap',
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
+import React from 'react'
+import PropTypes from 'prop-types'
+import { makeStyles, createStyles } from '@material-ui/core/styles'
+
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemIcon from '@material-ui/core/ListItemIcon'
+import ListItemText from '@material-ui/core/ListItemText'
+import Divider from '@material-ui/core/Divider'
+import Collapse from '@material-ui/core/Collapse'
+import { history } from "../../utils/history"
+
+import IconExpandLess from '@material-ui/icons/ExpandLess'
+import IconExpandMore from '@material-ui/icons/ExpandMore'
+
+
+const useStyles = makeStyles(theme =>
+  createStyles({
+    menuItem: {
+      "& .MuiListItemIcon-root":{
+        minWidth:34
       },
-      "& svg": {
-        fontSize: 20,
-        cursor: 'inherit',
+      "& .MuiListItemText-inset":{
+        paddingLeft:34
       }
     },
-    "& a:hover": {
-      fontWeight: 500,
-    },
-  },
-  nestedlist:{
-    paddingLeft:23,
+    menuItemIcon: {},
+  }),
+)
+
+// React runtime PropTypes
+export const NavItemPropTypes = {
+  name: PropTypes.string.isRequired,
+  link: PropTypes.string,
+  Icon: PropTypes.elementType,
+  items: PropTypes.array,
+}
+
+
+type NavItemPropTypes = PropTypes.InferProps<typeof NavItemPropTypes>
+type NavItemPropsWithoutItems = Omit<NavItemPropTypes, 'items'>
+
+// Improve child items declaration
+export type NavItemProps = NavItemPropsWithoutItems & {
+  items?: NavItemProps[]
+}
+
+const NavItem: React.FC<NavItemProps> = props => {
+  const { name, Icon, items = [], link } = props
+  const classes = useStyles()
+  const isExpandable = items && items.length > 0
+  const [open, setOpen] = React.useState(false)
+
+  function handleClick() {
+    setOpen(!open)
   }
-}));
-const NavItem: React.FC<{ title?: string; active?: boolean; link?: string, children?: React.ReactNode }> = ({
-  title,
-  active,
-  link,
-  children
-}) => {
-  const classes = useStyles();
+  function handleLinkClick(link: string) {
+    history.push(link)
+  }
+  const MenuItemRoot = (
+    <>
+      {!link
+        ?
+        <ListItem dense button className={classes.menuItem} onClick={handleClick}>
+          {/* Display an icon if any */}
+          {!!Icon && (
+            <ListItemIcon className={classes.menuItemIcon}>
+              <Icon />
+            </ListItemIcon>
+          )}
+          <ListItemText primary={name} inset={!Icon} />
+          {/* Display the expand menu if the item has children */}
+          {isExpandable && !open && <IconExpandMore />}
+          {isExpandable && open && <IconExpandLess />}
+        </ListItem> :
+        <ListItem dense button className={classes.menuItem} onClick={() => handleLinkClick(link)}>
+          {/* Display an icon if any */}
+          {!!Icon && (
+            <ListItemIcon className={classes.menuItemIcon}>
+              <Icon />
+            </ListItemIcon>
+          )}
+          <ListItemText primary={name} inset={!Icon} />
+          {/* Display the expand menu if the item has children */}
+          {isExpandable && !open && <IconExpandMore />}
+          {isExpandable && open && <IconExpandLess />}
+        </ListItem>}
+    </>
+  )
+
+  const MenuItemChildren = isExpandable ? (
+    <Collapse in={open} timeout="auto" unmountOnExit>
+      <Divider />
+      <List component="div" disablePadding>
+        {items.map((item, index) => (
+          <NavItem {...item} key={index} />
+        ))}
+      </List>
+    </Collapse>
+  ) : null
+
   return (
     <>
-      {!children && link ? <li className={`${classes.root} ${active ? `active` : ``}`}>
-        <Link to={link} title={title}><PlaylistAddCheckIcon /> <label>{title}</label></Link>
-      </li> :
-        <li className={classes.nestedlist}>{children}</li>}
+      {MenuItemRoot}
+      {MenuItemChildren}
     </>
-  );
-};
-export default NavItem;
+  )
+}
+
+NavItem.propTypes = NavItemPropTypes
+
+
+export default NavItem
