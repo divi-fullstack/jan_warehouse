@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
 const StyledTableCell = withStyles((theme: Theme) =>
   createStyles({
     head: {
-      backgroundColor: theme.palette.common.black,
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
       color: theme.palette.common.white,
     },
     body: {
@@ -209,8 +209,8 @@ const SalesInvoice: React.FC<{}> = () => {
       <div className={classes.root}>
         <Grid container justify='center'>
           <Grid item xs={12}>
-            <Typography variant="h4" component="h4" align='center' style={{padding:'10px'}}>
-                Sales Invoice
+            <Typography variant="h5" component="h5" align='center' style={{padding:'10px',fontWeight: 'bold'}}>
+                SALES INVOICE
             </Typography>
           </Grid>
           <Grid item xs={8}>
@@ -441,7 +441,7 @@ const SalesInvoice: React.FC<{}> = () => {
                 <Typography variant="h6" component="h6" align='left'>
                     VAT analysis
                 </Typography>   
-                <TableContainer  style={{border:'1px solid black'}}>
+                <TableContainer >
                 <Table aria-label="customized table" size="small">
                     <TableHead>
                     <TableRow>
@@ -478,7 +478,7 @@ const SalesInvoice: React.FC<{}> = () => {
                 <Typography variant="h6" component="h6" align='left'>
                     Nominial analysis
                 </Typography>   
-                <TableContainer style={{border:'1px solid black'}}>
+                <TableContainer>
                   <Table aria-label="customized table" size="small">
                     <TableHead>
                         <TableRow>
