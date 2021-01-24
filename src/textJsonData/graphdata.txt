@@ -1,0 +1,20 @@
+Turnover chart: net value currency vs time period (bar chart)
+		net value in base currency is sum for all customers in a month.
+		time period is monthly.
+
+Outstanding debts: pie chart for each customer - overdue amount
+		pie is sum of oustanding value/ transaction type contains invoice
+
+Top customers:
+		sum of net value in base currency for each cutomer sorted by sum.
+		when clicked on a bar =>
+ 			sum of net value in base currency for each month period.
+
+Worst paying customers:
+	total outstanding value in base, average of the number of days they took to pay back
+
+% customers responsible for 80% of sales:
+	net value in base currency
+	
+
+
