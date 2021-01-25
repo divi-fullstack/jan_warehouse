@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Selling Prices",
+    "items": [
+      {
+        "name": "Prices for Stock Item",
+        "link": "/dashboard/price-book/selling-prices/prices-for-stock-item"
+      },
+      {
+        "name": "Prices for Price Band",
+        "link": "/dashboard/price-book/selling-prices/prices-for-price-band"
+      },
+      {
+        "name": "Markup Prices",
+        "link": "/dashboard/price-book/selling-prices/markup-prices"
+      }
+    ]
+  },
+  {
+    "name": "Discounts",
+    "items": [
+      {
+        "name": "Discounts For Product Group",
+        "link": "/dashboard/price-book/discounts/discounts-for-product-group"
+      },
+      {
+        "name": "Discounts For Stock Item",
+        "link": "/dashboard/price-book/discounts/discounts-for-stock-item"
+      },
+      {
+        "name": "Invoice and Order Value Discounts",
+        "link": "/dashboard/price-book/discounts/invoice-and-order-value-discounts"
+      },
+      {
+        "name": "Link discounts to a customer",
+        "link": "/dashboard/price-book/discounts/link-discounts-to-customer"
+      }
+    ]
+  },
+  {
+    "name": "Discount Groups",
+    "items": [
+      {
+        "name": "Customer Discount Groups",
+        "link": "/dashboard/price-book/discount-groups/customer-discount-groups"
+      },
+      {
+        "name": "Link Customers to Group",
+        "link": "/dashboard/price-book/discount-groups/link-customers-to-group"
+      },
+      {
+        "name": "Link Discounts to Group",
+        "link": "/dashboard/price-book/discount-groups/link-discounts-to-group"
+      },
+      {
+        "name": "Link Customers to Invoice and Order Value Discount Band",
+        "link": "/dashboard/price-book/discount-groups/link-customers-to-invoice-and-order-value-discount-band"
+      }
+    ]
+  },
+  {
+    "name": "Enquiries",
+    "items": [
+      {
+        "name": "Customer Prices",
+        "link": "/dashboard/price-book/enquiries/customer-prices"
+      },
+      {
+        "name": "Customer Discounts",
+        "link": "/dashboard/price-book/enquiries/customer-discounts"
+      },
+      {
+        "name": "Stock Item Prices",
+        "link": "/dashboard/price-book/enquiries/stock-item-prices"
+      },
+      {
+        "name": "Stock Item Discounts",
+        "link": "/dashboard/price-book/enquiries/stock-item-discounts"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Sales Summary",
+    "link": "/dashboard/summaries/sales"
+  },
+  {
+    "name": "Purchases Summary",
+    "link": "/dashboard/summaries/purchases"
+  },
+  {
+    "name": "Financials Summary",
+    "link": "/dashboard/summaries/financials"
+  },
+  {
+    "name": "Sales Orders Summary",
+    "link": "/dashboard/summaries/sales-orders"
+  },
+  {
+    "name": "Purchase Orders Summary",
+    "link": "/dashboard/summaries/purchase-orders"
+  },
+  {
+    "name": "Stock Control Summary",
+    "link": "/dashboard/summaries/stock-control"
+  }
+]

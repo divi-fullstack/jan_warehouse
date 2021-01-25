@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Invoicing List",
+    "link": "/dashboard/invoicing/invoicing-list"
+  },
+  {
+    "name": "Invoices",
+    "items": [
+      {
+        "name": "Enter New Invoice",
+        "link": "/dashboard/invoicing/invoices/enter-new-invoice"
+      },
+      {
+        "name": "Amend Invoice",
+        "link": "/dashboard/invoicing/invoices/amend-invoice"
+      },
+      {
+        "name": "Amend Invoice Status",
+        "link": "/dashboard/invoicing/invoices/amend-invoice-status"
+      },
+      {
+        "name": "Print Invoices",
+        "link": "/dashboard/invoicing/invoices/print-invoices"
+      }
+    ]
+  },
+  {
+    "name": "Credit Notes",
+    "items": [
+      {
+        "name": "Enter New Credit Note",
+        "link": "/dashboard/invoicing/credit-notes/enter-new-credit-note"
+      },
+      {
+        "name": "Amend Credit Note",
+        "link": "/dashboard/invoicing/credit-notes/amend-credit-note"
+      },
+      {
+        "name": "Amend Credit Note Status",
+        "link": "/dashboard/invoicing/credit-notes/amend-credit-note-status"
+      },
+      {
+        "name": "Print Credit Notes",
+        "link": "/dashboard/invoicing/credit-notes/print-credit-notes"
+      }
+    ]
+  },
+  {
+    "name": "Processing",
+    "items": [
+      {
+        "name": "Enter VAT Only Invoice",
+        "link": "/dashboard/invoicing/processing/enter-vat-only-invoice"
+      },
+      {
+        "name": "Enter VAT Only Credit Note",
+        "link": "/dashboard/invoicing/processing/enter-vat-only-credit-note"
+      },
+      {
+        "name": "Cancel Invoices and Credit Notes",
+        "link": "/dashboard/invoicing/processing/cancel-invoices-and-credit-notes"
+      },
+      {
+        "name": "Post Invoices and Credit Notes",
+        "link": "/dashboard/invoicing/processing/post-invoices-and-credit-notes"
+      },
+      {
+        "name": "Delete Invoices and Credit Notes",
+        "link": "/dashboard/invoicing/processing/delete-invoices-and-credit-notes"
+      }
+    ]
+  },
+  {
+    "name": "Enquiries",
+    "items": [
+      {
+        "name": "View Invoice",
+        "link": "/dashboard/invoicing/enquiries/view-invoice"
+      },
+      {
+        "name": "View Credit Note",
+        "link": "/dashboard/invoicing/enquiries/view-credit-note"
+      },
+      {
+        "name": "Customer Price Enquiry",
+        "link": "/dashboard/invoicing/enquiries/customer-price-enquiry"
+      },
+      {
+        "name": "View Payment Totals",
+        "link": "/dashboard/invoicing/enquiries/view-payment-totals"
+      }
+    ]
+  }
+]

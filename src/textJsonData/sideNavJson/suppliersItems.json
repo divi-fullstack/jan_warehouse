@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Supplier List",
+    "link": "/dashboard/suppliers/supplier-list"
+  },
+  {
+    "name": "Create & Amend Accounts",
+    "items": [
+      {
+        "name": "Create Supplier",
+        "link": "/dashboard/suppliers/create-and-amend-accounts/create-supplier"
+      }
+    ]
+  },
+  {
+    "name": "Payment Control",
+    "items": [
+      {
+        "name": "Payment Control Enquiry",
+        "link": "/dashboard/suppliers/payment-control/payment-control-enquiry"
+      }
+    ]
+  },
+  {
+    "name": "Supplier Enquiries",
+    "items": [
+      {
+        "name": "Supplier Transaction Enquiry",
+        "link": "/dashboard/suppliers/supplier-enquiries/supplier-transaction-enquiry"
+      },
+      {
+        "name": "Creditors Reconcillation Enquiry",
+        "link": "/dashboard/suppliers/supplier-enquiries/creditors-reconcillation-enquiry"
+      },
+      {
+        "name": "Supplier Account Enquiry",
+        "link": "/dashboard/suppliers/supplier-enquiries/supplier-account-enquiry"
+      }
+    ]
+  },
+  {
+    "name": "Payment Processing",
+    "items": [
+      {
+        "name": "Generate Suggested Payments",
+        "link": "/dashboard/suppliers/payment-processing/generate-suggested-payments"
+      },
+      {
+        "name": "Amend Suggested Payments",
+        "link": "/dashboard/suppliers/payment-processing/amend-suggested-payments"
+      },
+      {
+        "name": "Report Suggested Payments",
+        "link": "/dashboard/suppliers/payment-processing/report-suggested-payments"
+      },
+      {
+        "name": "Generate Payments",
+        "link": "/dashboard/suppliers/payment-processing/generate-payments"
+      },
+      {
+        "name": "Maximum Payment Report",
+        "link": "/dashboard/suppliers/payment-processing/maximum-payment-report"
+      },
+      {
+        "name": "Delete Suggested Payments",
+        "link": "/dashboard/suppliers/payment-processing/delete-suggested-payments"
+      }
+    ]
+  },
+  {
+    "name": "Enter Transactions",
+    "items": [
+      {
+        "name": "Purchase Invoice",
+        "link": "/dashboard/suppliers/enter-transactions/purchase-invoice"
+      },
+      {
+        "name": "Rapid Invoice",
+        "link": "/dashboard/suppliers/enter-transactions/rapid-invoice"
+      },
+      {
+        "name": "Purchase Credit Note",
+        "link": "/dashboard/suppliers/enter-transactions/purchase-credit-note"
+      },
+      {
+        "name": "Purchase Payment",
+        "link": "/dashboard/suppliers/enter-transactions/purchase-payment"
+      },
+      {
+        "name": "Purchase Receipt",
+        "link": "/dashboard/suppliers/enter-transactions/purchase-receipt"
+      }
+    ]
+  },
+  {
+    "name": "Supplier Reports",
+    "items": [
+      {
+        "name": "Account Analysis",
+        "items": [
+          {
+            "name": "Day Book",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/day-book"
+          },
+          {
+            "name": "List of Accounts",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/list-of-accounts"
+          },
+          {
+            "name": "Accounts Details",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/account-details"
+          },
+          {
+            "name": "Transaction Listing",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/transaction-listing"
+          },
+          {
+            "name": "Trading Report (Detailed)",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/trading-report-detailed"
+          },
+          {
+            "name": "Trading Report (Summary)",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/trading-report-summary"
+          },
+          {
+            "name": "Top 5 Suppliers",
+            "link": "/dashboard/suppliers/suppliers-reports/account-analysis/top-5-suppliers"
+          }
+        ]
+      }
+    ]
+  }
+]

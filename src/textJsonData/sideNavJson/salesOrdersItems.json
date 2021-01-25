@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Enter New Order - Rapid",
+    "link": "/dashboard/sales-orders/enter-new-order-rapid"
+  },
+  {
+    "name": "Enter New Order",
+    "link": "/dashboard/sales-orders/enter-new-order"
+  },
+  {
+    "name": "Amend Order",
+    "link": "/dashboard/sales-orders/amend-order"
+  },
+  {
+    "name": "Amend Order Status",
+    "link": "/dashboard/sales-orders/amend-order-status"
+  },
+  {
+    "name": "Repeat Order Templates",
+    "link": "/dashboard/sales-orders/repeat-order-templates"
+  },
+  {
+    "name": "Enquiries",
+    "items": [
+      {
+        "name": "View Sales Orders",
+        "link": "/dashboard/sales-orders/enquiries/view-sales-orders"
+      },
+      {
+        "name": "View Sales Orders for Stock Item",
+        "link": "/dashboard/sales-orders/enquiries/view-sales-orders-for-stock-item"
+      },
+      {
+        "name": "View Sales Return",
+        "link": "/dashboard/sales-orders/enquiries/view-sales-return"
+      },
+      {
+        "name": "View Quotation",
+        "link": "/dashboard/sales-orders/enquiries/view-quotation"
+      },
+      {
+        "name": "View Proforma",
+        "link": "/dashboard/sales-orders/enquiries/view-proforma"
+      },
+      {
+        "name": "View Payment Totals",
+        "link": "/dashboard/sales-orders/enquiries/view-payment-totals"
+      },
+      {
+        "name": "Customer Price Enquiry",
+        "link": "/dashboard/sales-orders/enquiries/customer-price-enquiry"
+      },
+      {
+        "name": "Sales Documents",
+        "link": "/dashboard/sales-orders/enquiries/sales-documents"
+      },
+      {
+        "name": "Sales Document Lines",
+        "link": "/dashboard/sales-orders/enquiries/sales-document-lines"
+      },
+      {
+        "name": "Sales Document Status",
+        "link": "/dashboard/sales-orders/enquiries/sales-document-status"
+      },
+      {
+        "name": "Sales Invoice Credit Lines",
+        "link": "/dashboard/sales-orders/enquiries/sales-invoice-credit-lines"
+      },
+      {
+        "name": "SOP Payment Totals",
+        "link": "/dashboard/sales-orders/enquiries/sop-payment-totals"
+      }
+    ]
+  },
+  {
+    "name": "Returns",
+    "items": [
+      {
+        "name": "Enter New Sales Return",
+        "link": "/dashboard/sales-orders/returns/enter-new-sales-return"
+      },
+      {
+        "name": "Amend Sales Return",
+        "link": "/dashboard/sales-orders/returns/amend-sales-return"
+      },
+      {
+        "name": "Amend Sales Return Status",
+        "link": "/dashboard/sales-orders/returns/amend-sales-return-status"
+      }
+    ]
+  },
+  {
+    "name": "Quotations",
+    "items": [
+      {
+        "name": "New Quote",
+        "link": "/dashboard/sales-orders/quotations/new-quote"
+      },
+      {
+        "name": "New Quote for Prospect",
+        "link": "/dashboard/sales-orders/quotations/new-quote-for-prospect"
+      },
+      {
+        "name": "Amend Quote",
+        "link": "/dashboard/sales-orders/quotations/amend-quote"
+      },
+      {
+        "name": "Delete Quote",
+        "link": "/dashboard/sales-orders/quotations/delete-quote"
+      },
+      {
+        "name": "Print Quote",
+        "link": "/dashboard/sales-orders/quotations/print-quote"
+      },
+      {
+        "name": "Convert Quotation to Pro Forma",
+        "link": "/dashboard/sales-orders/quotations/convert-quotation-to-pro-forma"
+      },
+      {
+        "name": "Convert Quote to Sales Order",
+        "link": "/dashboard/sales-orders/quotations/convert-quote-to-sales-order"
+      }
+    ]
+  },
+  {
+    "name": "Proformas",
+    "items": [
+      {
+        "name": "New Proforma",
+        "link": "/dashboard/sales-orders/proformas/new-proforma"
+      },
+      {
+        "name": "Enter New Pro Forma for Prospect",
+        "link": "/dashboard/sales-orders/proformas/enter-new-pro-forma-for-prospect"
+      },
+      {
+        "name": "Amend Proforma",
+        "link": "/dashboard/sales-orders/proformas/amend-proforma"
+      },
+      {
+        "name": "Delete Proforma",
+        "link": "/dashboard/sales-orders/proformas/delete-proforma"
+      },
+      {
+        "name": "Print Proforma",
+        "link": "/dashboard/sales-orders/proformas/print-proforma"
+      },
+      {
+        "name": "Convert Proforma to Order",
+        "link": "/dashboard/sales-orders/proformas/convert-proforma-to-order"
+      }
+    ]
+  },
+  {
+    "name": "Processing",
+    "items": [
+      {
+        "name": "Allocate Stock",
+        "link": "/dashboard/sales-orders/processing/allocate-stock"
+      },
+      {
+        "name": "Amend Allocations",
+        "link": "/dashboard/sales-orders/processing/amend-allocations"
+      },
+      {
+        "name": "Amend Picking List",
+        "link": "/dashboard/sales-orders/processing/amend-picking-list"
+      },
+      {
+        "name": "Goods Despatched & Received",
+        "items": [
+          {
+            "name": "Despatch",
+            "link": "/dashboard/sales-orders/processing/goods-despatch-and-received/despatch"
+          },
+          {
+            "name": "Amend Despatch",
+            "link": "/dashboard/sales-orders/processing/goods-despatch-and-received/amend-despatch"
+          },
+          {
+            "name": "Receipt",
+            "link": "/dashboard/sales-orders/processing/goods-despatch-and-received/receipt"
+          },
+          {
+            "name": "Amend Receipt",
+            "link": "/dashboard/sales-orders/processing/goods-despatch-and-received/amend-receipt"
+          }
+        ]
+      },
+      {
+        "name": "VAT Only Invoice",
+        "link": "/dashboard/sales-orders/processing/vat-only-invoice"
+      },
+      {
+        "name": "VAT Only Credit Note",
+        "link": "/dashboard/sales-orders/processing/vat-only-credit-note"
+      },
+      {
+        "name": "Cancel Invoice",
+        "link": "/dashboard/sales-orders/processing/cancel-invoice"
+      },
+      {
+        "name": "Post Invoices and Credits",
+        "link": "/dashboard/sales-orders/processing/post-invoices-and-credits"
+      }
+    ]
+  },
+  {
+    "name": "Document Printing",
+    "items": [
+      {
+        "name": "Picking-lists",
+        "link": "/dashboard/sales-orders/document-printing/picking-lists"
+      },
+      {
+        "name": "Orders",
+        "link": "/dashboard/sales-orders/document-printing/orders"
+      },
+      {
+        "name": "Invoices",
+        "link": "/dashboard/sales-orders/document-printing/invoices"
+      },
+      {
+        "name": "Credit Notes",
+        "link": "/dashboard/sales-orders/document-printing/credit-notes"
+      }
+    ]
+  }
+]

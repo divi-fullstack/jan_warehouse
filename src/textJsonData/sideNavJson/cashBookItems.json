@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Bank account list",
+    "link": "/dashboard/cashbook/bank-account-list"
+  },
+  {
+    "name": "Bank process map",
+    "link": "/dashboard/cashbook/bank-process-map"
+  },
+  {
+    "name": "Create & Amend Accounts",
+    "items": [
+      {
+        "name": "Create Bank Account",
+        "link": "/dashboard/cashbook/create-amend-accounts/create-bank-account"
+      },
+      {
+        "name": "Amend Bank Account Details",
+        "link": "/dashboard/cashbook/create-amend-accounts/amend-bank-account-details"
+      }
+    ]
+  },
+  {
+    "name": "Enter Transactions",
+    "items": [
+      {
+        "name": "Sales Receipt",
+        "link": "/dashboard/cashbook/enter-transactions/sales-receipt"
+      },
+      {
+        "name": "Purchase Payment",
+        "link": "/dashboard/cashbook/enter-transactions/purchase-payment"
+      },
+      {
+        "name": "Grouped Transactions",
+        "link": "/dashboard/cashbook/enter-transactions/grouped-transactions"
+      },
+      {
+        "name": "Sales Payment",
+        "link": "/dashboard/cashbook/enter-transactions/sales-payment"
+      },
+      {
+        "name": "Purchase Receipt",
+        "link": "/dashboard/cashbook/enter-transactions/purchase-receipt"
+      },
+      {
+        "name": "Nominal Vatable Payment",
+        "link": "/dashboard/cashbook/enter-transactions/nominal-vatable-payment"
+      },
+      {
+        "name": "Nominal Vatable Receipt",
+        "link": "/dashboard/cashbook/enter-transactions/nominal-vatable-receipt"
+      },
+      {
+        "name": "Nominal Non Vatable Payment",
+        "link": "/dashboard/cashbook/enter-transactions/nominal-non-vatable-payment"
+      },
+      {
+        "name": "Nominal Non Vatable Receipt",
+        "link": "/dashboard/cashbook/enter-transactions/nominal-non-vatable-receipt"
+      },
+      {
+        "name": "Inter Bank Transfer",
+        "link": "/dashboard/cashbook/enter-transactions/inter-bank-transfer"
+      },
+      {
+        "name": "Vat Return Payment",
+        "link": "/dashboard/cashbook/enter-transactions/vat-return-payment"
+      },
+      {
+        "name": "Process Standing Orders and Direct Debits",
+        "link": "/dashboard/cashbook/enter-transactions/process-standing-orders-and-direct-debits"
+      }
+    ]
+  },
+  {
+    "name": "Bank Account Enquiries",
+    "items": [
+      {
+        "name": "Bank Account Transaction Enquiries",
+        "link": "/dashboard/cashbook/bank-account-enquiries/transaction-enquiries"
+      },
+      {
+        "name": "Standing Orders And Direct Debits Enquiry",
+        "link": "/dashboard/cashbook/bank-account-enquiries/standing-orders-and-direct-debits-enquiry"
+      },
+      {
+        "name": "Short term Cash Projection",
+        "link": "/dashboard/cashbook/bank-account-enquiries/short-term-cash-projection"
+      },
+      {
+        "name": "Bank Account Enquiry",
+        "link": "/dashboard/cashbook/bank-account-enquiries/bank-account-enquiry"
+      },
+      {
+        "name": "Bank Transaction Enquiry",
+        "link": "/dashboard/cashbook/bank-account-enquiries/bank-txn-enquiry"
+      },
+      {
+        "name": "Bank Standing Orders And Direct Debits",
+        "link": "/dashboard/cashbook/bank-account-enquiries/bank-standing-orders-and-direct-debits"
+      },
+      {
+        "name": "Cash Position",
+        "link": "/dashboard/cashbook/bank-account-enquiries/cash-position"
+      }
+    ]
+  }
+]

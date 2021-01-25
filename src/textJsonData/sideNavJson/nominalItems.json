@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Nominal List",
+    "link": "/dashboard/nominal/nominal-list"
+  },
+  {
+    "name": "Nominal Current Transactions",
+    "link": "/dashboard/nominal/nominal-current-transactions"
+  },
+  {
+    "name": "Create & Amend Accounts",
+    "items": [
+      {
+        "name": "Create New Nominal Account",
+        "link": "/dashboard/nominal/create-and-amend-accounts/create-new-nominal-account"
+      },
+      {
+        "name": "Generate New Nominal Account",
+        "link": "/dashboard/nominal/create-and-amend-accounts/genrate-new-nominal-account"
+      },
+      {
+        "name": "Amend Nominal Account Details",
+        "link": "/dashboard/nominal/create-and-amend-accounts/amend-nominal-account-details"
+      },
+      {
+        "name": "Create Accounts For Cost Center Department",
+        "link": "/dashboard/nominal/create-and-amend-accounts/create-accounts-for-cost-center-department"
+      }
+    ]
+  },
+  {
+    "name": "Nominal Enquiries",
+    "items": [
+      {
+        "name": "Nominal Enquiry",
+        "link": "/dashboard/nominal/nominal-enquiries/nominal-enquiry"
+      },
+      {
+        "name": "Nominal Transaction Enquiry",
+        "link": "/dashboard/nominal/nominal-enquiries/nominal-transaction-enquiry"
+      },
+      {
+        "name": "Nominal Account Enquiry",
+        "link": "/dashboard/nominal/nominal-enquiries/nominal-account-enquiry"
+      },
+      {
+        "name": "Nominal Current Transaction Enquiry",
+        "link": "/dashboard/nominal/nominal-enquiries/nominal-current-transaction-enquiry"
+      },
+      {
+        "name": "Nominal Deferred Pending Postings",
+        "link": "/dashboard/nominal/nominal-enquiries/nominal-deferred-pending-postings"
+      },
+      {
+        "name": "Cash Flow Report",
+        "link": "/dashboard/nominal/nominal-enquiries/cash-flow-report"
+      }
+    ]
+  },
+  {
+    "name": "Fixed Assets",
+    "items": [
+      {
+        "name": "Fixed Asset List",
+        "link": "/dashboard/nominal/fixed-assets/fixed-asset-list"
+      },
+      {
+        "name": "Enter New Asset",
+        "link": "/dashboard/nominal/fixed-assets/enter-new-asset"
+      },
+      {
+        "name": "Amend Asset",
+        "link": "/dashboard/nominal/fixed-assets/amend-asset"
+      },
+      {
+        "name": "Depreciate Asset",
+        "link": "/dashboard/nominal/fixed-assets/depreciate-asset"
+      },
+      {
+        "name": "Dispose Asset",
+        "link": "/dashboard/nominal/fixed-assets/dispose-asset"
+      },
+      {
+        "name": "Delete Asset",
+        "link": "/dashboard/nominal/fixed-assets/delete-asset"
+      },
+      {
+        "name": "Asset Enquiry",
+        "link": "/dashboard/nominal/fixed-assets/asset-enquiry"
+      }
+    ]
+  },
+  {
+    "name": "Enter Transactions",
+    "items": [
+      {
+        "name": "Nominal Journal Entry",
+        "link": "/dashboard/nominal/enter-transactions/nominal-journal-entry"
+      },
+      {
+        "name": "Currently Held Journals",
+        "link": "/dashboard/nominal/enter-transactions/currently-held-journals"
+      },
+      {
+        "name": "Nominal Vatable Receipt",
+        "link": "/dashboard/nominal/enter-transactions/nominal-vatable-receipt"
+      },
+      {
+        "name": "Nominal Non-Vatable Receipt",
+        "link": "/dashboard/nominal/enter-transactions/nominal-non-vatable-receipt"
+      },
+      {
+        "name": "Nominal Non-Vatable Payment",
+        "link": "/dashboard/nominal/enter-transactions/nominal-non-vatable-payment"
+      },
+      {
+        "name": "Prepayment Journal Entry",
+        "link": "/dashboard/nominal/enter-transactions/prepayment-journal-entry"
+      },
+      {
+        "name": "Accrual Journal Entry",
+        "link": "/dashboard/nominal/enter-transactions/accrual-journal-entry"
+      },
+      {
+        "name": "Previous Year Journal Entry",
+        "link": "/dashboard/nominal/enter-transactions/previous-year-journal-entry"
+      },
+      {
+        "name": "Journal Templates",
+        "link": "/dashboard/nominal/enter-transactions/journal-templates"
+      }
+    ]
+  },
+  {
+    "name": "Budgets",
+    "items": [
+      {
+        "name": "Enter New Combined Nominal Budget",
+        "link": "/dashboard/nominal/budgets/enter-new-combined-nominal-budget"
+      },
+      {
+        "name": "Amend Combined Nominal Budget",
+        "link": "/dashboard/nominal/budgets/amend-combined-nominal-budget"
+      },
+      {
+        "name": "Combined Nominal Budgets",
+        "link": "/dashboard/nominal/budgets/combined-nominal-budgets"
+      },
+      {
+        "name": "My Budgets Overview",
+        "link": "/dashboard/nominal/budgets/my-budgets-overview"
+      }
+    ]
+  }
+]

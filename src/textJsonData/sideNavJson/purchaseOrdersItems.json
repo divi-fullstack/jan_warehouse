@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Purchase Order List",
+    "link": "/dashboard/purchase-orders/purchase-order-list"
+  },
+  {
+    "name": "Purchase Order Process Map",
+    "link": "/dashboard/purchase-orders/purchase-order-process-map"
+  },
+  {
+    "name": "Enquiries",
+    "items": [
+      {
+        "name": "View Purchase Order",
+        "link": "/dashboard/purchase-orders/enquiries/view-purchase-order"
+      },
+      {
+        "name": "View Purchase Order for Stock Item",
+        "link": "/dashboard/purchase-orders/enquiries/view-purchase-order-for-stock-item"
+      },
+      {
+        "name": "View Purchase Return",
+        "link": "/dashboard/purchase-orders/enquiries/view-purchase-return"
+      },
+      {
+        "name": "Purchase Documents",
+        "link": "/dashboard/purchase-orders/enquiries/purchase-documents"
+      },
+      {
+        "name": "Purchase Document Lines",
+        "link": "/dashboard/purchase-orders/enquiries/purchase-document-lines"
+      },
+      {
+        "name": "Purchase Invoices and Credits",
+        "link": "/dashboard/purchase-orders/enquiries/purchase-invoices-and-credits"
+      }
+    ]
+  },
+  {
+    "name": "Purchase Requisitions",
+    "items": [
+      {
+        "name": "Enter Purchase Requisition",
+        "link": "/dashboard/purchase-orders/purchase-requisitions/enter-purchase-requisition"
+      },
+      {
+        "name": "Purchase Requisition Autorisation",
+        "link": "/dashboard/purchase-orders/purchase-requisitions/purchase-requisition-autorisation"
+      },
+      {
+        "name": "My Purchase Requisition",
+        "link": "/dashboard/purchase-orders/purchase-requisitions/my-purchase-requisition"
+      },
+      {
+        "name": "My Purchase Requisitions",
+        "link": "/dashboard/purchase-orders/purchase-requisitions/my-purchase-requisitions"
+      },
+      {
+        "name": "Generate Purchase Orders from Requisition Lines",
+        "link": "/dashboard/purchase-orders/purchase-requisitions/generate-purchase-orders-from-requisition-lines"
+      },
+      {
+        "name": "My Authorised Purchase Requisitions",
+        "link": "/dashboard/purchase-orders/purchase-requisitions/my-authorised-purchase-requisitions"
+      }
+    ]
+  },
+  {
+    "name": "Purchase Orders",
+    "items": [
+      {
+        "name": "Enter New Purchase Order",
+        "link": "/dashboard/purchase-orders/purchase-orders/enter-new-purchase-order"
+      },
+      {
+        "name": "Amend Order",
+        "link": "/dashboard/purchase-orders/purchase-orders/amend-order"
+      },
+      {
+        "name": "Amend Order Status",
+        "link": "/dashboard/purchase-orders/purchase-orders/amend-order-status"
+      },
+      {
+        "name": "Generate Orders",
+        "link": "/dashboard/purchase-orders/purchase-orders/generate-orders"
+      },
+      {
+        "name": "Supplier Stock Items",
+        "link": "/dashboard/purchase-orders/purchase-orders/supplier-stock-items"
+      }
+    ]
+  },
+  {
+    "name": "Purchase Returns",
+    "items": [
+      {
+        "name": "Enter New Purchase Return",
+        "link": "/dashboard/purchase-orders/purchase-returns/enter-new-purchase-return"
+      },
+      {
+        "name": "Amend Return",
+        "link": "/dashboard/purchase-orders/purchase-returns/amend-return"
+      },
+      {
+        "name": "Amend Return Status",
+        "link": "/dashboard/purchase-orders/purchase-returns/amend-return-status"
+      }
+    ]
+  },
+  {
+    "name": "Processing",
+    "items": [
+      {
+        "name": "Authorise Orders",
+        "link": "/dashboard/purchase-orders/processing/authorise-orders"
+      },
+      {
+        "name": "Amend Purchase Order Notifications",
+        "link": "/dashboard/purchase-orders/processing/amend-purchase-order-notifications"
+      },
+      {
+        "name": "Purchase Order Authorisation",
+        "link": "/dashboard/purchase-orders/processing/purchase-order-authorisation"
+      },
+      {
+        "name": "Purchase Order Notifications",
+        "link": "/dashboard/purchase-orders/processing/purchase-order-notifications"
+      },
+      {
+        "name": "My Unauthorised Purchase Orders",
+        "link": "/dashboard/purchase-orders/processing/my-unauthorised-purchase-orders"
+      },
+      {
+        "name": "Print Orders",
+        "link": "/dashboard/purchase-orders/processing/print-orders"
+      },
+      {
+        "name": "Print Returns",
+        "link": "/dashboard/purchase-orders/processing/print-returns"
+      },
+      {
+        "name": "Confirm Receipt",
+        "link": "/dashboard/purchase-orders/processing/confirm-receipt"
+      },
+      {
+        "name": "Amend Receipt",
+        "link": "/dashboard/purchase-orders/processing/amend-receipt"
+      },
+      {
+        "name": "Confirm Despatch",
+        "link": "/dashboard/purchase-orders/processing/confirm-despatch"
+      },
+      {
+        "name": "Amend Despatch",
+        "link": "/dashboard/purchase-orders/processing/amend-despatch"
+      },
+      {
+        "name": "Record Purchase Invoice",
+        "link": "/dashboard/purchase-orders/processing/record-purchase-invoice"
+      },
+      {
+        "name": "Record Purchase Credit Note",
+        "link": "/dashboard/purchase-orders/processing/record-purchase-credit-note"
+      }
+    ]
+  }
+]

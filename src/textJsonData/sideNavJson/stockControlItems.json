@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Stock List",
+    "link": "/dashboard/stock-control/stock-list"
+  },
+  {
+    "name": "Stock Control Process Map",
+    "link": "/dashboard/stock-control/stock-control-process-map"
+  },
+  {
+    "name": "Enquiries",
+    "items": [
+      {
+        "name": "View Stock Item Details",
+        "link": "/dashboard/stock-control/enquiries/view-stock-item-details"
+      },
+      {
+        "name": "View Stock Item Balances",
+        "link": "/dashboard/stock-control/enquiries/view-stock-item-balances"
+      },
+      {
+        "name": "View Stock Item History",
+        "link": "/dashboard/stock-control/enquiries/view-stock-item-history"
+      },
+      {
+        "name": "View Monthly Trading Figures",
+        "link": "/dashboard/stock-control/enquiries/view-monthly-trading-figures"
+      },
+      {
+        "name": "View Buying Prices",
+        "link": "/dashboard/stock-control/enquiries/view-buying-prices"
+      },
+      {
+        "name": "Check Bills of Material",
+        "link": "/dashboard/stock-control/enquiries/check-bills-of-material"
+      },
+      {
+        "name": "Bill of Materials Implosion",
+        "link": "/dashboard/stock-control/enquiries/bill-of-materials-implosion"
+      },
+      {
+        "name": "Bill of Materials Explosion",
+        "link": "/dashboard/stock-control/enquiries/bill-of-materials-explosion"
+      },
+      {
+        "name": "Stocks Status",
+        "link": "/dashboard/stock-control/enquiries/stocks-status"
+      },
+      {
+        "name": "Transactions",
+        "link": "/dashboard/stock-control/enquiries/transactions"
+      },
+      {
+        "name": "Allocated Stock",
+        "link": "/dashboard/stock-control/enquiries/allocated-stock"
+      },
+      {
+        "name": "Monthly Trading Figures",
+        "link": "/dashboard/stock-control/enquiries/monthly-trading-figures"
+      },
+      {
+        "name": "Stock Profitability",
+        "link": "/dashboard/stock-control/enquiries/stock-profitability"
+      }
+    ]
+  },
+  {
+    "name": "Stock Records",
+    "items": [
+      {
+        "name": "Amend Stock Item Details",
+        "link": "/dashboard/stock-control/stock-records/amend-stock-item-details"
+      },
+      {
+        "name": "Enter New Stock Item",
+        "link": "/dashboard/stock-control/stock-records/enter-new-stock-item"
+      },
+      {
+        "name": "Delete Stock Item",
+        "link": "/dashboard/stock-control/stock-records/delete-stock-item"
+      },
+      {
+        "name": "Enter New Bill of Materials",
+        "link": "/dashboard/stock-control/stock-records/enter-new-bill-of-materials"
+      },
+      {
+        "name": "Amend Bill of Materials",
+        "link": "/dashboard/stock-control/stock-records/amend-bill-of-materials"
+      },
+      {
+        "name": "Delete Bill of Materials",
+        "link": "/dashboard/stock-control/stock-records/delete-bill-of-materials"
+      },
+      {
+        "name": "Delete Bills of Material",
+        "link": "/dashboard/stock-control/stock-records/delete-bills-of-material"
+      },
+      {
+        "name": "Stock Item Suppliers",
+        "link": "/dashboard/stock-control/stock-records/stock-item-suppliers"
+      },
+      {
+        "name": "Stock Locations",
+        "link": "/dashboard/stock-control/stock-records/stock-locations"
+      },
+      {
+        "name": "Stock Order Fulfilment",
+        "link": "/dashboard/stock-control/stock-records/stock-order-fulfilment"
+      },
+      {
+        "name": "Customer Preferred Items",
+        "link": "/dashboard/stock-control/stock-records/customer-preferred-items"
+      }
+    ]
+  },
+  {
+    "name": "Returns",
+    "items": [
+      {
+        "name": "Internal Return",
+        "link": "/dashboard/stock-control/returns/internal-return"
+      },
+      {
+        "name": "Return From Supplier",
+        "link": "/dashboard/stock-control/returns/return-from-supplier"
+      }
+    ]
+  },
+  {
+    "name": "Allocations",
+    "items": [
+      {
+        "name": "Internal Allocation",
+        "link": "/dashboard/stock-control/allocations/internal-allocation"
+      },
+      {
+        "name": "Customer Allocation",
+        "link": "/dashboard/stock-control/allocations/customer-allocation"
+      },
+      {
+        "name": "Amend Allocation",
+        "link": "/dashboard/stock-control/allocations/amend-allocation"
+      },
+      {
+        "name": "Issue Allocation",
+        "link": "/dashboard/stock-control/allocations/issue-allocation"
+      }
+    ]
+  },
+  {
+    "name": "Adjustments",
+    "items": [
+      {
+        "name": "Add Stock",
+        "link": "/dashboard/stock-control/adjustments/add-stock"
+      },
+      {
+        "name": "Write Off Stock",
+        "link": "/dashboard/stock-control/adjustments/write-off-stock"
+      },
+      {
+        "name": "Transfer Stock",
+        "link": "/dashboard/stock-control/adjustments/transfer-stock"
+      },
+      {
+        "name": "Revalue Stock",
+        "link": "/dashboard/stock-control/adjustments/revalue-stock"
+      }
+    ]
+  },
+  {
+    "name": "Enter Transactions",
+    "items": [
+      {
+        "name": "Issues",
+        "items": [
+          {
+            "name": "Internal Issue",
+            "link": "/dashboard/stock-control/enter-transactions/issues/internal-issue"
+          },
+          {
+            "name": "Return to Supplier",
+            "link": "/dashboard/stock-control/enter-transactions/issues/return-to-supplier"
+          },
+          {
+            "name": "Customer FOC Issue",
+            "link": "/dashboard/stock-control/enter-transactions/issues/customer-foc-issue"
+          }
+        ]
+      }
+    ]
+  }
+]
