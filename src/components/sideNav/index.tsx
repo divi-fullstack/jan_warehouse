@@ -15,7 +15,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#f0f8ff"
   },
   headingWrapper: {
-    padding: 16,
+    paddingLeft: 16,
+    paddingRight: 16,
+    paddingTop: 18,
+    paddingBottom: 18,
     display: "flex",
     borderBottom: "1px solid rgba(0, 0, 0, 0.12)",
     "& svg": {

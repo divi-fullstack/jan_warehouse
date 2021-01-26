@@ -1,6 +1,6 @@
 import React from "react";
 import PageInternalHeader from "../../../../components/page-internal-header";
-import CustomerListTable from "./customer-list-table";
+import BankAccountListTable from "./bank-account-list-table";
 import {
   createStyles,
   makeStyles,
@@ -19,15 +19,15 @@ const useToolbarStyles = makeStyles((theme: Theme) =>
   })
 );
 const menuItems = [{ name: "Dashboard", link: "/dashboard" }];
-const CustomerList: React.FC<{}> = () => {
+const CashbookBankAccountList: React.FC<{}> = () => {
   const classes = useToolbarStyles();
   return (
     <div className={classes.root}>
-      <PageInternalHeader title="Customer List" menuItems={menuItems} />
+      <PageInternalHeader title="Bank Account List" menuItems={menuItems} />
       <div className={classes.tableWrapper}>
-        <CustomerListTable />
+        <BankAccountListTable />
       </div>
     </div>
   );
 };
-export default CustomerList;
+export default CashbookBankAccountList;
