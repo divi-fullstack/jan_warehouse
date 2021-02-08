@@ -7,6 +7,7 @@ import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
+import { margin } from "../../../../../../../ui-variables";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -102,7 +103,7 @@ const AddContactModal: React.FC<{
           style={{ margin: 8 }}
           placeholder="Name"
           fullWidth
-          margin="dense"
+          margin={margin}
           InputLabelProps={{
             shrink: true,
           }}
@@ -114,7 +115,7 @@ const AddContactModal: React.FC<{
           style={{ margin: 8 }}
           placeholder="Telephone"
           fullWidth
-          margin="dense"
+          margin={margin}
           InputLabelProps={{
             shrink: true,
           }}
@@ -126,7 +127,7 @@ const AddContactModal: React.FC<{
           style={{ margin: 8 }}
           placeholder="Email"
           fullWidth
-          margin="dense"
+          margin={margin}
           InputLabelProps={{
             shrink: true,
           }}
@@ -139,7 +140,7 @@ const AddContactModal: React.FC<{
           style={{ margin: 8 }}
           placeholder="Mobile"
           fullWidth
-          margin="dense"
+          margin={margin}
           InputLabelProps={{
             shrink: true,
           }}
@@ -152,7 +153,7 @@ const AddContactModal: React.FC<{
           type="number"
           placeholder="Fax"
           fullWidth
-          margin="dense"
+          margin={margin}
           InputLabelProps={{
             shrink: true,
           }}

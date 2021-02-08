@@ -8,33 +8,140 @@ import TableHead from "@material-ui/core/TableHead";
 import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
 import TableSortLabel from "@material-ui/core/TableSortLabel";
+import { Grid } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
-import { size } from "../../../../ui-variables";
+import { size } from "../../../../../../ui-variables";
 interface Data {
-  code: string;
-  accountNumber: string;
-  description: string;
-  balance: number;
+  transType: string;
+  transDate: string;
+  reference: string;
+  secondRef: string;
+  value: number;
+  allocated: number;
+  query: string;
+  status: string;
+  memo: string;
+  user: string;
+  source: string;
+  urn: number;
 }
 
 function createData(
-  code: string,
-  accountNumber: string,
-  description: string,
-  balance: number
+  transType: string,
+  transDate: string,
+  reference: string,
+  secondRef: string,
+  value: number,
+  allocated: number,
+  query: string,
+  status: string,
+  memo: string,
+  user: string,
+  source: string,
+  urn: number
 ): Data {
   return {
-    code,
-    accountNumber,
-    description,
-    balance,
+    transType,
+    transDate,
+    reference,
+    secondRef,
+    value,
+    allocated,
+    query,
+    status,
+    memo,
+    user,
+    source,
+    urn,
   };
 }
 
 const rows = [
-  createData("1210", "9/00474345", "Bank Deposit Account", 2535.02),
-  createData("1210", "9/00474345", "Bank Deposit Account", 2535.02),
-  createData("1210", "9/00474345", "Bank Deposit Account", 2535.02),
+  createData(
+    "Credit Note",
+    "10-12-21",
+    "",
+    "",
+    -66.0,
+    0.0,
+    "",
+    "",
+    "",
+    "Dakota Rice",
+    "Sales",
+    12024
+  ),
+  createData(
+    "Credit Note",
+    "10-12-21",
+    "",
+    "",
+    -66.0,
+    0.0,
+    "",
+    "",
+    "",
+    "Dakota Rice",
+    "Sales",
+    12024
+  ),
+  createData(
+    "Credit Note",
+    "10-12-21",
+    "",
+    "",
+    -66.0,
+    0.0,
+    "",
+    "",
+    "",
+    "Dakota Rice",
+    "Sales",
+    12024
+  ),
+
+  createData(
+    "Credit Note",
+    "10-12-21",
+    "",
+    "",
+    -66.0,
+    0.0,
+    "",
+    "",
+    "",
+    "Dakota Rice",
+    "Sales",
+    12024
+  ),
+  createData(
+    "Credit Note",
+    "10-12-21",
+    "",
+    "",
+    -66.0,
+    0.0,
+    "",
+    "",
+    "",
+    "Dakota Rice",
+    "Sales",
+    12024
+  ),
+  createData(
+    "Credit Note",
+    "10-12-21",
+    "",
+    "",
+    -66.0,
+    0.0,
+    "",
+    "",
+    "",
+    "Dakota Rice",
+    "Sales",
+    12024
+  ),
 ];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
@@ -76,36 +183,70 @@ interface HeadCell {
   id: keyof Data;
   label: string;
   numeric: boolean;
-  width?: number | string;
 }
 
 const headCells: HeadCell[] = [
   {
-    id: "code",
+    id: "transType",
     numeric: false,
     disablePadding: false,
-    label: "Code",
-    width: 100,
+    label: "Trans. Type",
   },
   {
-    id: "accountNumber",
-    numeric: false,
-    disablePadding: false,
-    label: "Account Number",
-    width: 150,
-  },
-  {
-    id: "description",
-    numeric: false,
-    disablePadding: false,
-    label: "Description",
-  },
-  {
-    id: "balance",
+    id: "transDate",
     numeric: true,
     disablePadding: false,
-    label: "Balance",
-    width: 100,
+    label: "Trans. Date",
+  },
+  { id: "reference", numeric: true, disablePadding: false, label: "Reference" },
+  { id: "secondRef", numeric: true, disablePadding: false, label: "2nd Ref." },
+  {
+    id: "value",
+    numeric: true,
+    disablePadding: false,
+    label: "Value",
+  },
+  {
+    id: "allocated",
+    numeric: true,
+    disablePadding: false,
+    label: "Allocated",
+  },
+  {
+    id: "query",
+    numeric: true,
+    disablePadding: false,
+    label: "Query",
+  },
+  {
+    id: "status",
+    numeric: true,
+    disablePadding: false,
+    label: "Status",
+  },
+  {
+    id: "memo",
+    numeric: true,
+    disablePadding: false,
+    label: "Memo",
+  },
+  {
+    id: "user",
+    numeric: true,
+    disablePadding: false,
+    label: "User",
+  },
+  {
+    id: "source",
+    numeric: true,
+    disablePadding: false,
+    label: "Source",
+  },
+  {
+    id: "urn",
+    numeric: true,
+    disablePadding: false,
+    label: "URN",
   },
 ];
 
@@ -136,7 +277,6 @@ function EnhancedTableHead(props: EnhancedTableProps) {
             key={headCell.id}
             align={headCell.numeric ? "right" : "left"}
             padding={headCell.disablePadding ? "none" : "default"}
-            style={{ width: headCell.width }}
             sortDirection={orderBy === headCell.id ? order : false}
           >
             <TableSortLabel
@@ -169,6 +309,16 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     table: {
       minWidth: 750,
+      "& td": {
+        whiteSpace: "nowrap",
+      },
+      "& th": {
+        whiteSpace: "nowrap",
+      },
+    },
+    nestedTitle: {
+      padding: theme.spacing(0, 2),
+      margin: theme.spacing(2, 0),
     },
     visuallyHidden: {
       border: 0,
@@ -184,12 +334,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function BankAccountListTable() {
+export default function TxnTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("accountNumber");
+  const [orderBy, setOrderBy] = React.useState<keyof Data>("transDate");
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
   const handleRequestSort = (
     event: React.MouseEvent<unknown>,
@@ -217,15 +367,25 @@ export default function BankAccountListTable() {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-        <TablePagination
-          rowsPerPageOptions={[5, 10, 25]}
-          component="div"
-          count={rows.length}
-          rowsPerPage={rowsPerPage}
-          page={page}
-          onChangePage={handleChangePage}
-          onChangeRowsPerPage={handleChangeRowsPerPage}
-        />
+        <Grid container spacing={3}>
+          <Grid item xs={6}>
+            <h3 id="title" className={classes.nestedTitle}>
+              Transactions
+            </h3>
+          </Grid>
+          <Grid item xs={6}>
+            <TablePagination
+              rowsPerPageOptions={[5, 10, 25]}
+              component="div"
+              size={size}
+              count={rows.length}
+              rowsPerPage={rowsPerPage}
+              page={page}
+              onChangePage={handleChangePage}
+              onChangeRowsPerPage={handleChangeRowsPerPage}
+            />
+          </Grid>
+        </Grid>
         <TableContainer>
           <Table
             className={classes.table}
@@ -247,13 +407,21 @@ export default function BankAccountListTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.code}>
+                    <TableRow hover tabIndex={-1} key={row.urn}>
                       <TableCell component="th" id={labelId} scope="row">
-                        {row.code}
+                        {row.transType}
                       </TableCell>
-                      <TableCell>{row.accountNumber}</TableCell>
-                      <TableCell>{row.description}</TableCell>
-                      <TableCell align="right">{row.balance}</TableCell>
+                      <TableCell align="right">{row.transDate}</TableCell>
+                      <TableCell align="right">{row.reference}</TableCell>
+                      <TableCell align="right">{row.secondRef}</TableCell>
+                      <TableCell align="right">{row.value}</TableCell>
+                      <TableCell align="right">{row.allocated}</TableCell>
+                      <TableCell align="right">{row.query}</TableCell>
+                      <TableCell align="right">{row.status}</TableCell>
+                      <TableCell align="right">{row.memo}</TableCell>
+                      <TableCell align="right">{row.user}</TableCell>
+                      <TableCell align="right">{row.source}</TableCell>
+                      <TableCell align="right">{row.urn}</TableCell>
                     </TableRow>
                   );
                 })}

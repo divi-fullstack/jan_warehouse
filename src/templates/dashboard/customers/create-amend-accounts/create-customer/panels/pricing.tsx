@@ -6,6 +6,7 @@ import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
+import { margin } from "../../../../../../ui-variables";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -41,7 +42,7 @@ const Pricing: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="%"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -52,7 +53,7 @@ const Pricing: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="days"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}

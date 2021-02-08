@@ -17,6 +17,7 @@ import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import Checkbox from "@material-ui/core/Checkbox";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
+import { margin } from "../../../../../../ui-variables";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -103,7 +104,7 @@ const Trading: React.FC<{}> = () => {
               style={{ margin: 8 }}
               placeholder="vat number"
               fullWidth
-              margin="dense"
+              margin={margin}
               InputLabelProps={{
                 shrink: true,
               }}
@@ -130,7 +131,7 @@ const Trading: React.FC<{}> = () => {
               style={{ margin: 8 }}
               placeholder=""
               fullWidth
-              margin="dense"
+              margin={margin}
               InputLabelProps={{
                 shrink: true,
               }}

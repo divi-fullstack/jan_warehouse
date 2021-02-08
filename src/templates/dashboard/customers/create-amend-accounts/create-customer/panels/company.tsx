@@ -8,6 +8,7 @@ import InputLabel from "@material-ui/core/InputLabel";
 import Grid from "@material-ui/core/Grid";
 import BottomDrower from "../../../../../../components/bottom-navigation";
 import Button from "@material-ui/core/Button";
+import {size, margin} from "../../../../../../ui-variables"
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -45,7 +46,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Code"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -56,7 +57,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Name"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -67,12 +68,12 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Short name"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
           />
-          <FormControl className={classes.formControl}>
+          <FormControl className={classes.formControl}  margin={margin}>
             <InputLabel shrink id="currency">
               Currency
             </InputLabel>
@@ -91,7 +92,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Credit limit"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -107,7 +108,7 @@ const Company: React.FC<{}> = () => {
             multiline
             rows={4}
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -119,7 +120,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="City"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -131,7 +132,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Country"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -142,13 +143,13 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Postcode"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
           />
 
-          <FormControl className={classes.formControl}>
+          <FormControl className={classes.formControl}  margin={margin}>
             <InputLabel shrink id="country">
               Country
             </InputLabel>
@@ -167,7 +168,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Telephone"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -178,7 +179,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Fax"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -190,7 +191,7 @@ const Company: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="Website"
             fullWidth
-            margin="dense"
+            margin={margin}
             InputLabelProps={{
               shrink: true,
             }}
@@ -200,12 +201,12 @@ const Company: React.FC<{}> = () => {
           <BottomDrower>
             <div></div>
             <div>
-              <Button variant="contained">Clear</Button>
-              <Button variant="contained" color="primary">
+              <Button variant="contained" size={size}>Clear</Button>
+              <Button variant="contained" size={size} color="primary">
                 Save
               </Button>
             </div>
-          </BottomDrower>
+          </BottomDrower> 
         </Grid>
       </Grid>
     </div>

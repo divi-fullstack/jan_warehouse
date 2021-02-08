@@ -17,6 +17,7 @@ import SaveIcon from '@material-ui/icons/Save';
 import Button from '@material-ui/core/Button';
 import ClearIcon from '@material-ui/icons/Clear';
 import MenuItem from '@material-ui/core/MenuItem';
+import { size } from '../../../../../ui-variables';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -224,7 +225,7 @@ const SalesInvoice: React.FC<{}> = () => {
                             id="code" 
                             select label="Code" 
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={code}
                             onChange={handleCodeChange}
                         >
@@ -238,7 +239,7 @@ const SalesInvoice: React.FC<{}> = () => {
                             id="short-name" 
                             select label="Short Name" 
                             variant="filled" 
-                            size="small" 
+                            size={size} 
                             value={shortName}
                             onChange={handleShortNameChange}>
                             {customerData.map((option) => (
@@ -252,7 +253,7 @@ const SalesInvoice: React.FC<{}> = () => {
                             select 
                             label="Postcode"
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={postcode}
                             onChange={handlePostcodeChange}>
                             {customerData.map((option) => (
@@ -270,7 +271,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             />
                         <TextField
                             label="Balance"
@@ -279,7 +280,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={balance}
                         />                      
                     </Grid>
@@ -300,24 +301,24 @@ const SalesInvoice: React.FC<{}> = () => {
                             type="date"
                             defaultValue="2017-05-24"
                             variant="filled"
-                            size="small"/>
+                            size={size}/>
                         <TextField
                             id="due-date"
                             label="Due date"
                             type="date"
                             defaultValue="2017-05-24"
                             variant="filled"
-                            size="small"/>
+                            size={size}/>
                         <TextField
                             id="reference"
                             label="Reference"
                             variant="filled"
-                            size="small"/>   
+                            size={size}/>   
                         <TextField
                             id="sec-reference"
                             label="Second ref"
                             variant="filled"
-                            size="small"/>
+                            size={size}/>
                     </Grid>
                 </form>
             </Paper>
@@ -336,7 +337,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.GoodsValue||''}
                         />
                         <TextField 
@@ -346,7 +347,7 @@ const SalesInvoice: React.FC<{}> = () => {
                             InputProps={{
                                 endAdornment: <InputAdornment position='end'>%</InputAdornment>,
                             }}
-                            size="small"
+                            size={size}
                             value={transaction?.DiscountPercent ||''}
                         />
                         <FormControlLabel
@@ -377,7 +378,7 @@ const SalesInvoice: React.FC<{}> = () => {
                             id="dicount-days"
                             label="Discount days"
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.DiscountDays ||''}
                         />
                         <TextField
@@ -387,7 +388,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.DiscountValue ||''}
                             />
                         <TextField
@@ -397,7 +398,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.VATDiscount ||''}
                         />                      
                     </Grid>
@@ -409,7 +410,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.VATValue ||''}
                         />  
                         <TextField
@@ -419,7 +420,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.InvoiceTotal ||''}
                         />
                         <TextField
@@ -429,7 +430,7 @@ const SalesInvoice: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size="small"
+                            size={size}
                             value={transaction?.DiscInvTotal ||''}
                         />                        
                     </Grid>
@@ -442,7 +443,7 @@ const SalesInvoice: React.FC<{}> = () => {
                     VAT analysis
                 </Typography>   
                 <TableContainer >
-                <Table aria-label="customized table" size="small">
+                <Table aria-label="customized table" size={size}>
                     <TableHead>
                     <TableRow>
                         <StyledTableCell>Code</StyledTableCell>
@@ -479,7 +480,7 @@ const SalesInvoice: React.FC<{}> = () => {
                     Nominial analysis
                 </Typography>   
                 <TableContainer>
-                  <Table aria-label="customized table" size="small">
+                  <Table aria-label="customized table" size={size}>
                     <TableHead>
                         <TableRow>
                             <StyledTableCell>Code</StyledTableCell>
