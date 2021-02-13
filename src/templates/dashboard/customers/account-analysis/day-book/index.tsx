@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import PageInternalHeader from "../../../../../components/page-internal-header";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import ACRef from "./ac-ref";
-import PositioningDate from "./positioning-date";
-import TransType from "./trans-type";
-import UseNumber from "./use-number";
+import ACRef from "../../../../../components/criteria-components/ac-ref";
+import PositioningDate from "../../../../../components/criteria-components/positioning-date";
+import TransType from "../../../../../components/criteria-components/trans-type";
+import UseNumber from "../../../../../components/criteria-components/use-number";
 import Grid from "@material-ui/core/Grid";
 import BottomDrower from "../../../../../components/bottom-navigation";
 import Button from "@material-ui/core/Button";
@@ -39,7 +39,7 @@ const DayBook: React.FC<{}> = () => {
   const [acRefSelected, setAcRefSelected] = useState("all");
   const [positioningDateSelected, setPositioningDateSelected] = useState("all");
   const [selectedTransType, setSelectedTransType] = useState("all");
-  const [selectedUseNumber, setSelectedUseNumber] = useState("all");
+  const [selectedUseNumber, setSelectedUseNumber] = useState("all"); 
   const handleChangeUseNumber = (
     event: React.ChangeEvent<{ value: unknown }>
   ) => {
@@ -51,7 +51,7 @@ const DayBook: React.FC<{}> = () => {
     setSelectedTransType(event.target.value as string);
   };
   const positoningDateHandleChange = (
-    event: React.ChangeEvent<{ value: unknown }>
+     event: React.ChangeEvent<{ value: unknown }>
   ) => {
     setPositioningDateSelected(event.target.value as string);
   };
