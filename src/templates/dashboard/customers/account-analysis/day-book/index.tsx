@@ -9,7 +9,12 @@ import Grid from "@material-ui/core/Grid";
 import BottomDrower from "../../../../../components/bottom-navigation";
 import Button from "@material-ui/core/Button";
 import { size } from "../../../../../ui-variables";
-
+import {
+  useNumberOptions,
+  transTypeOptions,
+  acRefOptions,
+  positioningDateOptions,
+} from "./options";
 const useToolbarStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {},
@@ -39,7 +44,7 @@ const DayBook: React.FC<{}> = () => {
   const [acRefSelected, setAcRefSelected] = useState("all");
   const [positioningDateSelected, setPositioningDateSelected] = useState("all");
   const [selectedTransType, setSelectedTransType] = useState("all");
-  const [selectedUseNumber, setSelectedUseNumber] = useState("all"); 
+  const [selectedUseNumber, setSelectedUseNumber] = useState("all");
   const handleChangeUseNumber = (
     event: React.ChangeEvent<{ value: unknown }>
   ) => {
@@ -51,40 +56,13 @@ const DayBook: React.FC<{}> = () => {
     setSelectedTransType(event.target.value as string);
   };
   const positoningDateHandleChange = (
-     event: React.ChangeEvent<{ value: unknown }>
+    event: React.ChangeEvent<{ value: unknown }>
   ) => {
     setPositioningDateSelected(event.target.value as string);
   };
   const acRefhandleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
     setAcRefSelected(event.target.value as string);
   };
-  const useNumberOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-  ];
-  const transTypeOptions = [
-    { name: "All", value: "all" },
-    { name: "Is", value: "is" },
-    { name: "In", value: "in" },
-  ];
-  const acRefOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-    { name: "In", value: "in" },
-  ];
-  const positioningDateOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-  ];
 
   const reset = () => {
     setAcRefSelected("all");

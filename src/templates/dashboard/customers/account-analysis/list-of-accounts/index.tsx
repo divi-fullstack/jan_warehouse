@@ -15,6 +15,18 @@ import LastTransaction from "../../../../../components/criteria-components/last-
 import OnHold from "../../../../../components/criteria-components/on-hold";
 import ActiveStatus from "../../../../../components/criteria-components/active-status";
 import Customer from "../../../../../components/criteria-components/customer";
+import {
+  activeStatusOptions,
+  onHoldOptions,
+  lastTransactionOption,
+  lastAmendedOptions,
+  balanceOptions,
+  countrySelectionOptions,
+  currencySelectionOptions,
+  customerOptions,
+  shortNameOptions,
+  acRefOptions,
+} from "./options";
 const useToolbarStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {},
@@ -102,69 +114,6 @@ const ListOfAccounts: React.FC<{}> = () => {
   const acRefhandleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
     setAcRefSelected(event.target.value as string);
   };
-  const activeStatusOptions = [
-    { name: "All", value: "all" },
-    { name: "Is", value: "is" },
-  ];
-  const onHoldOptions = [
-    { name: "All", value: "all" },
-    { name: "Is", value: "is" },
-  ];
-  const lastTransactionOption = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-  ];
-  const lastAmendedOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-  ];
-  const balanceOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-  ];
-  const countrySelectionOptions = [
-    { name: "All", value: "all" },
-    { name: "Is", value: "is" },
-    { name: "In", value: "in" },
-  ];
-  const currencySelectionOptions = [
-    { name: "All", value: "all" },
-    { name: "Is", value: "is" },
-    { name: "In", value: "in" },
-  ];
-  const customerOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-    { name: "In", value: "in" },
-  ];
-  const shortNameOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-    { name: "In", value: "in" },
-  ];
-  const acRefOptions = [
-    { name: "All", value: "all" },
-    { name: "Between", value: "between" },
-    { name: "Is", value: "is" },
-    { name: "From", value: "from" },
-    { name: "To", value: "to" },
-    { name: "In", value: "in" },
-  ];
 
   const reset = () => {
     setAcRefSelected("all");
