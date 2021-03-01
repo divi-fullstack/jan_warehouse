@@ -7,6 +7,7 @@ import Summaries from "./summaries";
 import Customers from "./customers";
 import Cashbook from "./cashbook";
 import Suppliers from "./suppliers";
+import PriceBook from "./price-book";
 const Routes: React.FC<{ match: any }> = ({ match }) => (
   <>
     <Switch>
@@ -17,6 +18,7 @@ const Routes: React.FC<{ match: any }> = ({ match }) => (
         <Route path={`${match.url}/customers`} component={Customers} />
         <Route path={`${match.url}/cashbook`} component={Cashbook} />
         <Route path={`${match.url}/suppliers`} component={Suppliers} />
+        <Route path={`${match.url}/price-book`} component={PriceBook} />
       </DashboardLayout>
     </Switch>
   </>

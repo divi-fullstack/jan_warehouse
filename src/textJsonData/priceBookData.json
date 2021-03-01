@@ -1,0 +1,3426 @@
+[
+    {
+      "Price Band": "PUBLIC",
+      "Code": "BOARD001",
+      "Name": "Whiteboard - Drywipe (900 x 1200)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 21
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "BOARD002",
+      "Name": "Whiteboard - Drywipe (1000 x 1500)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "Board003",
+      "Name": "Whiteboard - dry wipe (500 x 1300)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "BOOKS001",
+      "Name": "A4 Ledger Book - 5 Column",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "BOOKS002",
+      "Name": "A4 Carbon Copy Book - Triplicate",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "BOOKS003",
+      "Name": "Shorthand Notebook - 80 Sheets",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "BOOKS004",
+      "Name": "A4 Note book blank pages",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CALC001",
+      "Name": "Calculator - Desktop",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CALC002",
+      "Name": "Calculator - Pocket",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CALC003",
+      "Name": "Calculator - Desktop (Printing)",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CALC004",
+      "Name": "Calculator - Printing Rolls",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CAS001",
+      "Name": "AT Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CAS002",
+      "Name": "ATX Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CAS003",
+      "Name": "ATX Desktop Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CDR001",
+      "Name": "CDR08432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CDR002",
+      "Name": "CDR10432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "CDR003",
+      "Name": "CDR12432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "COR001",
+      "Name": "Correction Fluid - White",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "DISK001",
+      "Name": "Diskettes - Formatted (1.44MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "DISK002",
+      "Name": "Disk - CDR (640MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "ENV001",
+      "Name": "Envelope - White (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "ENV002",
+      "Name": "Envelope - White (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "ENV003",
+      "Name": "Envelope - Brown (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "ENV004",
+      "Name": "Envelope - Brown (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FAX001",
+      "Name": "FX010 Plain Paper Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FAX002",
+      "Name": "FX020 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FAX003",
+      "Name": "FX030 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FIL001",
+      "Name": "Filing Cabinet - 3 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FIL002",
+      "Name": "Filing Cabinet - 5 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FLIP001",
+      "Name": "Flip Chart - A1 Pad",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "FLIP002",
+      "Name": "Flip Chart - A1 Pad (Recycled)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "HAR001",
+      "Name": "10gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "HAR002",
+      "Name": "20gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "HAR003",
+      "Name": "30gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "INST001",
+      "Name": "Installation",
+      "Group Code": "00010_SERV",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "KEY001",
+      "Name": "Standard Keyboard",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "LABELS001",
+      "Name": "A4 Labels (68x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "LABELS002",
+      "Name": "A4 Labels (38x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "LAM001",
+      "Name": "Laminator - A4",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "LAM002",
+      "Name": "Laminator Pouches - A4",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MAIL001",
+      "Name": "Mailing Bag - Bubble Lined",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MEM001",
+      "Name": "DIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MEM002",
+      "Name": "DIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MEM003",
+      "Name": "DIMM 128mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MEM004",
+      "Name": "SIMM 16mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MEM005",
+      "Name": "SIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MEM006",
+      "Name": "SIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MON001",
+      "Name": "15\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MON002",
+      "Name": "17\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MON003",
+      "Name": "19\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOTH001",
+      "Name": "MTH1000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOTH002",
+      "Name": "MTH2000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOTH003",
+      "Name": "MTH3000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOUSE001",
+      "Name": "Mouse Mat - (241 x 203) Red",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOUSE002",
+      "Name": "Mouse Mat - (241 x 203) Blue",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOUSE003",
+      "Name": "Mouse Mat - (241 x 203) Black",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "MOUSE004",
+      "Name": "Dual Wheel Mouse",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER001",
+      "Name": "Copy Paper - Economy Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER002",
+      "Name": "Copy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER003",
+      "Name": "Copy Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER004",
+      "Name": "Inkjet Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER005",
+      "Name": "Lasercopy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER006",
+      "Name": "Coloured Paper - Pastel Blue",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PAPER007",
+      "Name": "Coloured Paper - Pastel Green",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PC001",
+      "Name": "PC Combo Pack 1",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PC002",
+      "Name": "PC Combo Pack 2",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PC003",
+      "Name": "PC Combo Pack 3",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PC004",
+      "Name": "PC Combo Pack 4",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PC005",
+      "Name": "PC Combo Pack 5",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PC006",
+      "Name": "PC Combo Pack 6",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PEN001",
+      "Name": "Ball Point Pen - Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PEN002",
+      "Name": "Ball Point Pen - Blue",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PEN003",
+      "Name": "Ball Point Pen - Red",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PEN004",
+      "Name": "Pencil - HB",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PEN005",
+      "Name": "Pencil - H",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PEN006",
+      "Name": "Pencil - Chinagraph Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRC001",
+      "Name": "PCR600 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRC002",
+      "Name": "PCR650 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRC003",
+      "Name": "PCR700 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRC004",
+      "Name": "PCR800 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRC005",
+      "Name": "PCR900 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRN001",
+      "Name": "LP100 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRN002",
+      "Name": "LP200 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRN003",
+      "Name": "JP010 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRN004",
+      "Name": "JP020 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "PRN005",
+      "Name": "JP030 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "REMEMBER01",
+      "Name": "Remember-Me Sticky Notes",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "REMEMBER02",
+      "Name": "Remember-Me Sticky Notes (Recycled)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "REMEMBER03",
+      "Name": "Remember-Me Memo Pads",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "RUB001",
+      "Name": "Rubber Bands - Selection Pack (200)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "SCI001",
+      "Name": "Scissors - Economy",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "SCN001",
+      "Name": "SCAN1000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "SCN002",
+      "Name": "SCAN2000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TAPE001",
+      "Name": "Adhesive Tape - Brown (48mm x 60m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TAPE002",
+      "Name": "Adhesive Tape - Brown (50mm x 66m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TAPE003",
+      "Name": "Adhesive Tape - Clear (19mm x 33m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TR001",
+      "Name": "LP100 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TR002",
+      "Name": "LP200 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TR003",
+      "Name": "JP010 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TR004",
+      "Name": "JP020 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TR005",
+      "Name": "JP030 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TRAY001",
+      "Name": "Letter Trays - 3 pack (Black)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TRAY002",
+      "Name": "Letter Trays - 3 pack (Pink/Brown)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "TRAY003",
+      "Name": "Letter Trays - 3 pack (Grey)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "VID001",
+      "Name": "8mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "VID002",
+      "Name": "16mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "PUBLIC",
+      "Code": "VID003",
+      "Name": "32mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "BOARD001",
+      "Name": "Whiteboard - Drywipe (900 x 1200)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 20
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "BOARD002",
+      "Name": "Whiteboard - Drywipe (1000 x 1500)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 22
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "Board003",
+      "Name": "Whiteboard - dry wipe (500 x 1300)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 20
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "BOOKS001",
+      "Name": "A4 Ledger Book - 5 Column",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 7.99
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "BOOKS002",
+      "Name": "A4 Carbon Copy Book - Triplicate",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 2.99
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "BOOKS003",
+      "Name": "Shorthand Notebook - 80 Sheets",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 4.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "BOOKS004",
+      "Name": "A4 Note book blank pages",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 4.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CALC001",
+      "Name": "Calculator - Desktop",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 10
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CALC002",
+      "Name": "Calculator - Pocket",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 6
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CALC003",
+      "Name": "Calculator - Desktop (Printing)",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 17
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CALC004",
+      "Name": "Calculator - Printing Rolls",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 6
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CAS001",
+      "Name": "AT Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 15
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CAS002",
+      "Name": "ATX Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 20
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CAS003",
+      "Name": "ATX Desktop Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 30
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CDR001",
+      "Name": "CDR08432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 154
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CDR002",
+      "Name": "CDR10432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 190
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "CDR003",
+      "Name": "CDR12432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 223
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "COR001",
+      "Name": "Correction Fluid - White",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 2.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "DISK001",
+      "Name": "Diskettes - Formatted (1.44MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 3
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "DISK002",
+      "Name": "Disk - CDR (640MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 8
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "ENV001",
+      "Name": "Envelope - White (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 8.99
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "ENV002",
+      "Name": "Envelope - White (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 9.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "ENV003",
+      "Name": "Envelope - Brown (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 7.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "ENV004",
+      "Name": "Envelope - Brown (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 8.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FAX001",
+      "Name": "FX010 Plain Paper Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 180
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FAX002",
+      "Name": "FX020 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 400
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FAX003",
+      "Name": "FX030 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 460
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FIL001",
+      "Name": "Filing Cabinet - 3 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 45
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FIL002",
+      "Name": "Filing Cabinet - 5 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 65
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FLIP001",
+      "Name": "Flip Chart - A1 Pad",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 16
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "FLIP002",
+      "Name": "Flip Chart - A1 Pad (Recycled)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 16
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "HAR001",
+      "Name": "10gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "HAR002",
+      "Name": "20gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 75
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "HAR003",
+      "Name": "30gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 90
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "INST001",
+      "Name": "Installation",
+      "Group Code": "00010_SERV",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "KEY001",
+      "Name": "Standard Keyboard",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 20
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "LABELS001",
+      "Name": "A4 Labels (68x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 4.25
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "LABELS002",
+      "Name": "A4 Labels (38x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 4.25
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "LAM001",
+      "Name": "Laminator - A4",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 75
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "LAM002",
+      "Name": "Laminator Pouches - A4",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 12
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MAIL001",
+      "Name": "Mailing Bag - Bubble Lined",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 15
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MEM001",
+      "Name": "DIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 30
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MEM002",
+      "Name": "DIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 58
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MEM003",
+      "Name": "DIMM 128mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 100
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MEM004",
+      "Name": "SIMM 16mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 30
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MEM005",
+      "Name": "SIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MEM006",
+      "Name": "SIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 80
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MON001",
+      "Name": "15\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 90
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MON002",
+      "Name": "17\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 140
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MON003",
+      "Name": "19\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 240
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOTH001",
+      "Name": "MTH1000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOTH002",
+      "Name": "MTH2000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 60
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOTH003",
+      "Name": "MTH3000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 70
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOUSE001",
+      "Name": "Mouse Mat - (241 x 203) Red",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 1.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOUSE002",
+      "Name": "Mouse Mat - (241 x 203) Blue",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 1.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOUSE003",
+      "Name": "Mouse Mat - (241 x 203) Black",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 1.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "MOUSE004",
+      "Name": "Dual Wheel Mouse",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 15
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER001",
+      "Name": "Copy Paper - Economy Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 2.59
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER002",
+      "Name": "Copy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 2.89
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER003",
+      "Name": "Copy Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 3.4
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER004",
+      "Name": "Inkjet Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 4.99
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER005",
+      "Name": "Lasercopy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 2.45
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER006",
+      "Name": "Coloured Paper - Pastel Blue",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 3.8
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PAPER007",
+      "Name": "Coloured Paper - Pastel Green",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 3.8
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PC001",
+      "Name": "PC Combo Pack 1",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 550
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PC002",
+      "Name": "PC Combo Pack 2",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 650
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PC003",
+      "Name": "PC Combo Pack 3",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 750
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PC004",
+      "Name": "PC Combo Pack 4",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 850
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PC005",
+      "Name": "PC Combo Pack 5",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 1200
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PC006",
+      "Name": "PC Combo Pack 6",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 1500
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PEN001",
+      "Name": "Ball Point Pen - Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 2
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PEN002",
+      "Name": "Ball Point Pen - Blue",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 2
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PEN003",
+      "Name": "Ball Point Pen - Red",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 2
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PEN004",
+      "Name": "Pencil - HB",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 2.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PEN005",
+      "Name": "Pencil - H",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 2.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PEN006",
+      "Name": "Pencil - Chinagraph Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 4.8
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRC001",
+      "Name": "PCR600 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 80
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRC002",
+      "Name": "PCR650 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 130
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRC003",
+      "Name": "PCR700 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 200
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRC004",
+      "Name": "PCR800 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 300
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRC005",
+      "Name": "PCR900 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 400
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRN001",
+      "Name": "LP100 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 240
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRN002",
+      "Name": "LP200 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 1200
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRN003",
+      "Name": "JP010 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 70
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRN004",
+      "Name": "JP020 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 180
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "PRN005",
+      "Name": "JP030 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 190
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "REMEMBER01",
+      "Name": "Remember-Me Sticky Notes",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 3
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "REMEMBER02",
+      "Name": "Remember-Me Sticky Notes (Recycled)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 3.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "REMEMBER03",
+      "Name": "Remember-Me Memo Pads",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 7.99
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "RUB001",
+      "Name": "Rubber Bands - Selection Pack (200)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 6
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "SCI001",
+      "Name": "Scissors - Economy",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 3
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "SCN001",
+      "Name": "SCAN1000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 86
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "SCN002",
+      "Name": "SCAN2000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 189
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TAPE001",
+      "Name": "Adhesive Tape - Brown (48mm x 60m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 2.5
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TAPE002",
+      "Name": "Adhesive Tape - Brown (50mm x 66m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 2.8
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TAPE003",
+      "Name": "Adhesive Tape - Clear (19mm x 33m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0.65
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TR001",
+      "Name": "LP100 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 10
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TR002",
+      "Name": "LP200 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 6
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TR003",
+      "Name": "JP010 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 18
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TR004",
+      "Name": "JP020 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 15
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TR005",
+      "Name": "JP030 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 14
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TRAY001",
+      "Name": "Letter Trays - 3 pack (Black)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 7
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TRAY002",
+      "Name": "Letter Trays - 3 pack (Pink/Brown)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 7
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "TRAY003",
+      "Name": "Letter Trays - 3 pack (Grey)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 7
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "VID001",
+      "Name": "8mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 34
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "VID002",
+      "Name": "16mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 44
+    },
+    {
+      "Price Band": "Standard",
+      "Code": "VID003",
+      "Name": "32mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 55
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "BOARD001",
+      "Name": "Whiteboard - Drywipe (900 x 1200)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 22
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "BOARD002",
+      "Name": "Whiteboard - Drywipe (1000 x 1500)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "Board003",
+      "Name": "Whiteboard - dry wipe (500 x 1300)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "BOOKS001",
+      "Name": "A4 Ledger Book - 5 Column",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "BOOKS002",
+      "Name": "A4 Carbon Copy Book - Triplicate",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "BOOKS003",
+      "Name": "Shorthand Notebook - 80 Sheets",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "BOOKS004",
+      "Name": "A4 Note book blank pages",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CALC001",
+      "Name": "Calculator - Desktop",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CALC002",
+      "Name": "Calculator - Pocket",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CALC003",
+      "Name": "Calculator - Desktop (Printing)",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CALC004",
+      "Name": "Calculator - Printing Rolls",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CAS001",
+      "Name": "AT Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CAS002",
+      "Name": "ATX Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CAS003",
+      "Name": "ATX Desktop Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CDR001",
+      "Name": "CDR08432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CDR002",
+      "Name": "CDR10432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "CDR003",
+      "Name": "CDR12432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "COR001",
+      "Name": "Correction Fluid - White",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "DISK001",
+      "Name": "Diskettes - Formatted (1.44MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "DISK002",
+      "Name": "Disk - CDR (640MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "ENV001",
+      "Name": "Envelope - White (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "ENV002",
+      "Name": "Envelope - White (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "ENV003",
+      "Name": "Envelope - Brown (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "ENV004",
+      "Name": "Envelope - Brown (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FAX001",
+      "Name": "FX010 Plain Paper Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FAX002",
+      "Name": "FX020 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FAX003",
+      "Name": "FX030 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FIL001",
+      "Name": "Filing Cabinet - 3 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FIL002",
+      "Name": "Filing Cabinet - 5 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FLIP001",
+      "Name": "Flip Chart - A1 Pad",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "FLIP002",
+      "Name": "Flip Chart - A1 Pad (Recycled)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "HAR001",
+      "Name": "10gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "HAR002",
+      "Name": "20gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "HAR003",
+      "Name": "30gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "INST001",
+      "Name": "Installation",
+      "Group Code": "00010_SERV",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "KEY001",
+      "Name": "Standard Keyboard",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "LABELS001",
+      "Name": "A4 Labels (68x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "LABELS002",
+      "Name": "A4 Labels (38x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "LAM001",
+      "Name": "Laminator - A4",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "LAM002",
+      "Name": "Laminator Pouches - A4",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MAIL001",
+      "Name": "Mailing Bag - Bubble Lined",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MEM001",
+      "Name": "DIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MEM002",
+      "Name": "DIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MEM003",
+      "Name": "DIMM 128mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MEM004",
+      "Name": "SIMM 16mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MEM005",
+      "Name": "SIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MEM006",
+      "Name": "SIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MON001",
+      "Name": "15\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MON002",
+      "Name": "17\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MON003",
+      "Name": "19\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOTH001",
+      "Name": "MTH1000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOTH002",
+      "Name": "MTH2000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOTH003",
+      "Name": "MTH3000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOUSE001",
+      "Name": "Mouse Mat - (241 x 203) Red",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOUSE002",
+      "Name": "Mouse Mat - (241 x 203) Blue",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOUSE003",
+      "Name": "Mouse Mat - (241 x 203) Black",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "MOUSE004",
+      "Name": "Dual Wheel Mouse",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER001",
+      "Name": "Copy Paper - Economy Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER002",
+      "Name": "Copy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER003",
+      "Name": "Copy Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER004",
+      "Name": "Inkjet Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER005",
+      "Name": "Lasercopy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER006",
+      "Name": "Coloured Paper - Pastel Blue",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PAPER007",
+      "Name": "Coloured Paper - Pastel Green",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PC001",
+      "Name": "PC Combo Pack 1",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PC002",
+      "Name": "PC Combo Pack 2",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PC003",
+      "Name": "PC Combo Pack 3",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PC004",
+      "Name": "PC Combo Pack 4",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PC005",
+      "Name": "PC Combo Pack 5",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PC006",
+      "Name": "PC Combo Pack 6",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PEN001",
+      "Name": "Ball Point Pen - Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PEN002",
+      "Name": "Ball Point Pen - Blue",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PEN003",
+      "Name": "Ball Point Pen - Red",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PEN004",
+      "Name": "Pencil - HB",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PEN005",
+      "Name": "Pencil - H",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PEN006",
+      "Name": "Pencil - Chinagraph Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRC001",
+      "Name": "PCR600 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRC002",
+      "Name": "PCR650 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRC003",
+      "Name": "PCR700 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRC004",
+      "Name": "PCR800 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRC005",
+      "Name": "PCR900 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRN001",
+      "Name": "LP100 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRN002",
+      "Name": "LP200 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRN003",
+      "Name": "JP010 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRN004",
+      "Name": "JP020 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "PRN005",
+      "Name": "JP030 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "REMEMBER01",
+      "Name": "Remember-Me Sticky Notes",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "REMEMBER02",
+      "Name": "Remember-Me Sticky Notes (Recycled)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "REMEMBER03",
+      "Name": "Remember-Me Memo Pads",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "RUB001",
+      "Name": "Rubber Bands - Selection Pack (200)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "SCI001",
+      "Name": "Scissors - Economy",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "SCN001",
+      "Name": "SCAN1000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "SCN002",
+      "Name": "SCAN2000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TAPE001",
+      "Name": "Adhesive Tape - Brown (48mm x 60m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TAPE002",
+      "Name": "Adhesive Tape - Brown (50mm x 66m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TAPE003",
+      "Name": "Adhesive Tape - Clear (19mm x 33m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TR001",
+      "Name": "LP100 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TR002",
+      "Name": "LP200 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TR003",
+      "Name": "JP010 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TR004",
+      "Name": "JP020 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TR005",
+      "Name": "JP030 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TRAY001",
+      "Name": "Letter Trays - 3 pack (Black)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TRAY002",
+      "Name": "Letter Trays - 3 pack (Pink/Brown)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "TRAY003",
+      "Name": "Letter Trays - 3 pack (Grey)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "VID001",
+      "Name": "8mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "VID002",
+      "Name": "16mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEA",
+      "Code": "VID003",
+      "Name": "32mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "BOARD001",
+      "Name": "Whiteboard - Drywipe (900 x 1200)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 23
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "BOARD002",
+      "Name": "Whiteboard - Drywipe (1000 x 1500)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "Board003",
+      "Name": "Whiteboard - dry wipe (500 x 1300)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "BOOKS001",
+      "Name": "A4 Ledger Book - 5 Column",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "BOOKS002",
+      "Name": "A4 Carbon Copy Book - Triplicate",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "BOOKS003",
+      "Name": "Shorthand Notebook - 80 Sheets",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "BOOKS004",
+      "Name": "A4 Note book blank pages",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CALC001",
+      "Name": "Calculator - Desktop",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CALC002",
+      "Name": "Calculator - Pocket",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CALC003",
+      "Name": "Calculator - Desktop (Printing)",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CALC004",
+      "Name": "Calculator - Printing Rolls",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CAS001",
+      "Name": "AT Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CAS002",
+      "Name": "ATX Mini Tower Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CAS003",
+      "Name": "ATX Desktop Case",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CDR001",
+      "Name": "CDR08432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CDR002",
+      "Name": "CDR10432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "CDR003",
+      "Name": "CDR12432 Read/Write CD Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "COR001",
+      "Name": "Correction Fluid - White",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "DISK001",
+      "Name": "Diskettes - Formatted (1.44MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "DISK002",
+      "Name": "Disk - CDR (640MB)",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "ENV001",
+      "Name": "Envelope - White (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "ENV002",
+      "Name": "Envelope - White (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "ENV003",
+      "Name": "Envelope - Brown (110 x 220) Plain",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "ENV004",
+      "Name": "Envelope - Brown (110 x 220) Window",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FAX001",
+      "Name": "FX010 Plain Paper Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FAX002",
+      "Name": "FX020 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FAX003",
+      "Name": "FX030 Multifunctional Fax",
+      "Group Code": "0009_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FIL001",
+      "Name": "Filing Cabinet - 3 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FIL002",
+      "Name": "Filing Cabinet - 5 Drawer",
+      "Group Code": "0005_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FLIP001",
+      "Name": "Flip Chart - A1 Pad",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "FLIP002",
+      "Name": "Flip Chart - A1 Pad (Recycled)",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "HAR001",
+      "Name": "10gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "HAR002",
+      "Name": "20gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "HAR003",
+      "Name": "30gb Hard Drive",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "INST001",
+      "Name": "Installation",
+      "Group Code": "00010_SERV",
+      "Stock Unit Name": "Each",
+      "Price": 50
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "KEY001",
+      "Name": "Standard Keyboard",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "LABELS001",
+      "Name": "A4 Labels (68x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "LABELS002",
+      "Name": "A4 Labels (38x99) - Inkjet",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "LAM001",
+      "Name": "Laminator - A4",
+      "Group Code": "0007_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "LAM002",
+      "Name": "Laminator Pouches - A4",
+      "Group Code": "0006",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MAIL001",
+      "Name": "Mailing Bag - Bubble Lined",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MEM001",
+      "Name": "DIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MEM002",
+      "Name": "DIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MEM003",
+      "Name": "DIMM 128mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MEM004",
+      "Name": "SIMM 16mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MEM005",
+      "Name": "SIMM 32mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MEM006",
+      "Name": "SIMM 64mb 100Mhz",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MON001",
+      "Name": "15\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MON002",
+      "Name": "17\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MON003",
+      "Name": "19\" Monitor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOTH001",
+      "Name": "MTH1000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOTH002",
+      "Name": "MTH2000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOTH003",
+      "Name": "MTH3000 Motherboard",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOUSE001",
+      "Name": "Mouse Mat - (241 x 203) Red",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOUSE002",
+      "Name": "Mouse Mat - (241 x 203) Blue",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOUSE003",
+      "Name": "Mouse Mat - (241 x 203) Black",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "MOUSE004",
+      "Name": "Dual Wheel Mouse",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER001",
+      "Name": "Copy Paper - Economy Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER002",
+      "Name": "Copy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER003",
+      "Name": "Copy Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER004",
+      "Name": "Inkjet Paper - Premium Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER005",
+      "Name": "Lasercopy Paper - Standard Grade",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER006",
+      "Name": "Coloured Paper - Pastel Blue",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PAPER007",
+      "Name": "Coloured Paper - Pastel Green",
+      "Group Code": "0001",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PC001",
+      "Name": "PC Combo Pack 1",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PC002",
+      "Name": "PC Combo Pack 2",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PC003",
+      "Name": "PC Combo Pack 3",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PC004",
+      "Name": "PC Combo Pack 4",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PC005",
+      "Name": "PC Combo Pack 5",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PC006",
+      "Name": "PC Combo Pack 6",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PEN001",
+      "Name": "Ball Point Pen - Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PEN002",
+      "Name": "Ball Point Pen - Blue",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PEN003",
+      "Name": "Ball Point Pen - Red",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PEN004",
+      "Name": "Pencil - HB",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PEN005",
+      "Name": "Pencil - H",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PEN006",
+      "Name": "Pencil - Chinagraph Black",
+      "Group Code": "0004",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRC001",
+      "Name": "PCR600 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRC002",
+      "Name": "PCR650 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRC003",
+      "Name": "PCR700 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRC004",
+      "Name": "PCR800 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRC005",
+      "Name": "PCR900 Processor",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRN001",
+      "Name": "LP100 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRN002",
+      "Name": "LP200 Laser Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRN003",
+      "Name": "JP010 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRN004",
+      "Name": "JP020 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "PRN005",
+      "Name": "JP030 Jet Printer",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "REMEMBER01",
+      "Name": "Remember-Me Sticky Notes",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "REMEMBER02",
+      "Name": "Remember-Me Sticky Notes (Recycled)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "REMEMBER03",
+      "Name": "Remember-Me Memo Pads",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "RUB001",
+      "Name": "Rubber Bands - Selection Pack (200)",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "SCI001",
+      "Name": "Scissors - Economy",
+      "Group Code": "0002",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "SCN001",
+      "Name": "SCAN1000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "SCN002",
+      "Name": "SCAN2000 Scanner",
+      "Group Code": "00010_MISC",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TAPE001",
+      "Name": "Adhesive Tape - Brown (48mm x 60m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TAPE002",
+      "Name": "Adhesive Tape - Brown (50mm x 66m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TAPE003",
+      "Name": "Adhesive Tape - Clear (19mm x 33m)",
+      "Group Code": "0003",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TR001",
+      "Name": "LP100 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TR002",
+      "Name": "LP200 Laser Printer Toner",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TR003",
+      "Name": "JP010 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TR004",
+      "Name": "JP020 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TR005",
+      "Name": "JP030 Jet Printer Cartridge",
+      "Group Code": "0008",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TRAY001",
+      "Name": "Letter Trays - 3 pack (Black)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TRAY002",
+      "Name": "Letter Trays - 3 pack (Pink/Brown)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "TRAY003",
+      "Name": "Letter Trays - 3 pack (Grey)",
+      "Group Code": "0005",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "VID001",
+      "Name": "8mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "VID002",
+      "Name": "16mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    },
+    {
+      "Price Band": "TRADEB",
+      "Code": "VID003",
+      "Name": "32mb PCI Video Card",
+      "Group Code": "00010",
+      "Stock Unit Name": "Each",
+      "Price": 0
+    }
+  ]
