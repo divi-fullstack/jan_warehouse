@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { makeStyles, createStyles } from '@material-ui/core/styles'
-
+import { useLocation } from "react-router-dom";
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
@@ -49,19 +49,29 @@ const NavItem: React.FC<NavItemProps> = props => {
   const { name, Icon, items = [], link } = props
   const classes = useStyles()
   const isExpandable = items && items.length > 0
+  const [active, setActive] = React.useState(false);
   const [open, setOpen] = React.useState(false)
+  let location = useLocation();
+  React.useEffect(() => {
+    if(location.pathname === link) {
+      setActive(true);
+    }
+    else {
+      setActive(false);
+    }
+  }, [location]);
 
   function handleClick() {
     setOpen(!open)
   }
   function handleLinkClick(link: string) {
-    history.push(link)
+    history.push(link);
   }
   const MenuItemRoot = (
     <>
       {!link
         ?
-        <ListItem dense button className={classes.menuItem} onClick={handleClick}>
+        <ListItem dense button className={classes.menuItem} onClick={handleClick} selected={active} >
           {/* Display an icon if any */}
           {!!Icon && (
             <ListItemIcon className={classes.menuItemIcon}>
@@ -73,7 +83,7 @@ const NavItem: React.FC<NavItemProps> = props => {
           {isExpandable && !open && <IconExpandMore />}
           {isExpandable && open && <IconExpandLess />}
         </ListItem> :
-        <ListItem dense button className={classes.menuItem} onClick={() => handleLinkClick(link)}>
+        <ListItem dense button className={classes.menuItem} onClick={() => handleLinkClick(link)} selected={active}>
           {/* Display an icon if any */}
           {!!Icon && (
             <ListItemIcon className={classes.menuItemIcon}>
