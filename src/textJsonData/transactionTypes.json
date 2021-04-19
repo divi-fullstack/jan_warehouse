@@ -1,8 +1,0 @@
-[
-  { "name": "Receipt", "value": "receipt" },
-  { "name": "Payment", "value": "payment" },
-  { "name": "Invoice", "value": "invoice" },
-  { "name": "Credit Note", "value": "creditNote" },
-  { "name": "Opening Balance Invoice", "value": "openingBalanceInvoice" },
-  { "name": "Opening Balance Credit Note", "value": "openingBalanceCreditNote" }
-]

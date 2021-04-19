@@ -105,5 +105,55 @@
         "link": "/dashboard/cashbook/bank-account-enquiries/cash-position"
       }
     ]
+  },
+  {
+    "name": "Bank Account Reports",
+    "items": [
+
+      {
+        "name": "Account Details Report",
+        "link": "/dashboard/cashbook/bank-account-report/account-details-report"
+      },
+      {
+        "name": "Transection Listing",
+        "link": "/dashboard/cashbook/bank-account-report/transection-listing"
+      },
+      {
+        "name": "Transection Listing (by period)",
+        "link": "/dashboard/cashbook/bank-account-report/transection-listing-by-period"
+      },
+      {
+        "name": "Unpresented Cheques (Recepts)",
+        "link": "/dashboard/cashbook/bank-account-report/unpresented-cheques-recepts"
+      },
+      {
+        "name": "Unpresented Cheques (Payment)",
+        "link": "/dashboard/cashbook/bank-account-report/unpresented-cheques-payment"
+      },
+      {
+        "name": "Unpresented Cheques (both)",
+        "link": "/dashboard/cashbook/bank-account-report/unpresented-cheques-both"
+      },
+      {
+        "name": "Direct debit &  Standing orders",
+        "link": "/dashboard/cashbook/bank-account-report/direct-debit-and-standing-order"
+      },
+      {
+        "name": "Direct debit &  Standing orders Due",
+        "link": "/dashboard/cashbook/bank-account-report/direct-debit-and-standing-order-due"
+      },
+      {
+        "name": "Sage bank feed posting report",
+        "link": "/dashboard/cashbook/bank-account-report/sage-bank-feed-posting-report"
+      },
+      {
+        "name": "Sage bank feed faield posting report",
+        "link": "/dashboard/cashbook/bank-account-report/sage-bank-feed-faield-posting-report"
+      },
+      {
+        "name": "Account not active",
+        "link": "/dashboard/cashbook/bank-account-report/account-not-active"
+      }
+    ]
   }
 ]

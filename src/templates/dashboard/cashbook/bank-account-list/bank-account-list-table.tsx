@@ -9,7 +9,7 @@ import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
 import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
-import { size } from "../../../../ui-variables";
+
 interface Data {
   code: string;
   accountNumber: string;
@@ -35,6 +35,7 @@ const rows = [
   createData("1210", "9/00474345", "Bank Deposit Account", 2535.02),
   createData("1210", "9/00474345", "Bank Deposit Account", 2535.02),
   createData("1210", "9/00474345", "Bank Deposit Account", 2535.02),
+
 ];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
@@ -85,14 +86,14 @@ const headCells: HeadCell[] = [
     numeric: false,
     disablePadding: false,
     label: "Code",
-    width: 100,
+    width: 100
   },
   {
     id: "accountNumber",
     numeric: false,
     disablePadding: false,
     label: "Account Number",
-    width: 150,
+    width: 150
   },
   {
     id: "description",
@@ -100,13 +101,7 @@ const headCells: HeadCell[] = [
     disablePadding: false,
     label: "Description",
   },
-  {
-    id: "balance",
-    numeric: true,
-    disablePadding: false,
-    label: "Balance",
-    width: 100,
-  },
+  { id: "balance", numeric: true, disablePadding: false, label: "Balance",  width: 100 },
 ];
 
 interface EnhancedTableProps {
@@ -136,7 +131,7 @@ function EnhancedTableHead(props: EnhancedTableProps) {
             key={headCell.id}
             align={headCell.numeric ? "right" : "left"}
             padding={headCell.disablePadding ? "none" : "default"}
-            style={{ width: headCell.width }}
+            style={{width:headCell.width}}
             sortDirection={orderBy === headCell.id ? order : false}
           >
             <TableSortLabel
@@ -230,7 +225,7 @@ export default function BankAccountListTable() {
           <Table
             className={classes.table}
             aria-labelledby="tableTitle"
-            size={size}
+            size={"medium"}
             aria-label="enhanced table"
           >
             <EnhancedTableHead

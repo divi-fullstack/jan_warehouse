@@ -14,7 +14,6 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker,
 } from "@material-ui/pickers";
-import { margin } from "../../../../../../ui-variables";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -174,7 +173,7 @@ const Credit: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder=""
             fullWidth
-            margin={margin}
+            margin="dense"
             InputLabelProps={{
               shrink: true,
             }}
@@ -185,7 +184,7 @@ const Credit: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder=""
             fullWidth
-            margin={margin}
+            margin="dense"
             InputLabelProps={{
               shrink: true,
             }}
@@ -231,7 +230,7 @@ const Credit: React.FC<{}> = () => {
             style={{ margin: 8 }}
             placeholder="days"
             fullWidth
-            margin={margin}
+            margin="dense"
             InputLabelProps={{
               shrink: true,
             }}

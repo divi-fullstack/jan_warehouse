@@ -8,7 +8,6 @@ import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import { margin } from "../../../../../../ui-variables";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -67,7 +66,7 @@ const Payment: React.FC<{}> = () => {
               style={{ margin: 8 }}
               placeholder="%"
               fullWidth
-              margin={margin}
+              margin="dense"
               InputLabelProps={{
                 shrink: true,
               }}
@@ -78,7 +77,7 @@ const Payment: React.FC<{}> = () => {
               style={{ margin: 8 }}
               placeholder="days"
               fullWidth
-              margin={margin}
+              margin="dense"
               InputLabelProps={{
                 shrink: true,
               }}
@@ -89,7 +88,7 @@ const Payment: React.FC<{}> = () => {
               style={{ margin: 8 }}
               placeholder="days"
               fullWidth
-              margin={margin}
+              margin="dense"
               InputLabelProps={{
                 shrink: true,
               }}

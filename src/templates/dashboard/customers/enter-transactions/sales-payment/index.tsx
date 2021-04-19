@@ -3,7 +3,6 @@ import { createStyles, makeStyles, Theme, withStyles } from '@material-ui/core/s
 import { Paper, Grid, Typography, TextField, InputAdornment, Checkbox, FormControlLabel, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableFooter, Button, MenuItem, IconButton } from '@material-ui/core';
 import ClearIcon from '@material-ui/icons/Clear';
 import SaveIcon from '@material-ui/icons/Save';
-import { size } from '../../../../../ui-variables';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -136,26 +135,26 @@ const SalesPayment: React.FC<{}> = () => {
                     select
                     label="Bank account" 
                     variant="filled"
-                    size={size}
+                    size="small"
                     value={bankAccount}
                     onChange={handleBankAccountChange}
                     style={{width:'60ch'}}
                 >
                     <TableHead>
                         <TableRow>
-                            <TableCell size={size}>Code</TableCell>
-                            <TableCell align="right" size={size}>Account description</TableCell> 
-                            <TableCell align="right" size={size}>Short Code</TableCell> 
-                            <TableCell align="right" size={size}>Account Number</TableCell> 
+                            <TableCell size="small">Code</TableCell>
+                            <TableCell align="right" size="small">Account description</TableCell> 
+                            <TableCell align="right" size="small">Short Code</TableCell> 
+                            <TableCell align="right" size="small">Account Number</TableCell> 
                         </TableRow>
                     </TableHead>
                     {bankData.map((option) => (
                         <MenuItem key={option.Code} value={option.Code} style={{padding:0,display: "table-row-group"}}>
                             <TableRow key={option.Code}>
-                                <TableCell size={size}>{option.Code}</TableCell>
-                                <TableCell align="right" size={size}>{option.AccountDescription}</TableCell>
-                                <TableCell align="right" size={size}>{option.ShortCode}</TableCell>
-                                <TableCell align="right" size={size}>{option.AccountNumber}</TableCell>
+                                <TableCell size="small">{option.Code}</TableCell>
+                                <TableCell align="right" size="small">{option.AccountDescription}</TableCell>
+                                <TableCell align="right" size="small">{option.ShortCode}</TableCell>
+                                <TableCell align="right" size="small">{option.AccountNumber}</TableCell>
                             </TableRow>
                         </MenuItem>
                     ))}
@@ -173,7 +172,7 @@ const SalesPayment: React.FC<{}> = () => {
                             id="code" 
                             select label="Code" 
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={code}
                             onChange={handleCodeChange}
                         >
@@ -187,7 +186,7 @@ const SalesPayment: React.FC<{}> = () => {
                             id="short-name" 
                             select label="Short Name" 
                             variant="filled" 
-                            size={size} 
+                            size="small" 
                             value={shortName}
                             onChange={handleShortNameChange}>
                             {customerData.map((option) => (
@@ -201,7 +200,7 @@ const SalesPayment: React.FC<{}> = () => {
                             select 
                             label="Postcode"
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={postcode}
                             onChange={handlePostcodeChange}>
                             {customerData.map((option) => (
@@ -219,7 +218,7 @@ const SalesPayment: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={creditLimit}
                             />
                         <TextField
@@ -229,7 +228,7 @@ const SalesPayment: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={balance}
                         />                        
                     </Grid>
@@ -249,17 +248,17 @@ const SalesPayment: React.FC<{}> = () => {
                             type="date"
                             defaultValue="2017-05-24"
                             variant="filled"
-                            size={size}/>
+                            size="small"/>
                         <TextField
                             id="reference"
                             label="Reference"
                             variant="filled"
-                            size={size}/>   
+                            size="small"/>   
                         <TextField
                             id="sec-reference"
                             label="Second ref"
                             variant="filled"
-                            size={size}/>
+                            size="small"/>
                     </Grid>
                 </form>
             </Paper>
@@ -276,7 +275,7 @@ const SalesPayment: React.FC<{}> = () => {
                             select
                             label="Cheque currency" 
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={chequeCurrency}
                             onChange={(e) => setChequeCurrency(e.target.value) }
                             >
@@ -296,7 +295,7 @@ const SalesPayment: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={settlementDiscount}
                             onChange={(e) => setSettlementDiscount(e.target.value) }
                             />
@@ -309,7 +308,7 @@ const SalesPayment: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={chequeValue}
                             onChange={(e) => setChequeValue(e.target.value) }
                         />                      

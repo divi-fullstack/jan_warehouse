@@ -11,7 +11,7 @@ import BottomDrower from "../../../../../../components/bottom-navigation";
 import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import AddContactModal from "./modals/add-contacts";
-import {margin,size} from "../../../../../../ui-variables"
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -49,7 +49,7 @@ const Contacts: React.FC<{}> = () => {
           <h3 className={classes.heading}>Contacts</h3>
           <Grid item xs={12} md={12} sm={12}>
             <TableContainer component={Paper}>
-              <Table className={classes.table} aria-label="simple table" size={size}>
+              <Table className={classes.table} aria-label="simple table">
                 <TableHead>
                   <TableRow>
                     <TableCell>Default</TableCell>

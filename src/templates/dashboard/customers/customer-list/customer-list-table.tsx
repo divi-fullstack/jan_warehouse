@@ -9,8 +9,7 @@ import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
 import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
-import CustomerTxnEnquiryModal from "./customer-txn-enquiry-modal";
-import { size } from "../../../../ui-variables";
+
 interface Data {
   code: string;
   shortName: string;
@@ -349,11 +348,7 @@ export default function CustomerListTable() {
   const [orderBy, setOrderBy] = React.useState<keyof Data>("name");
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
-  const [customerTxnModal, setCustomerTxnModal] = React.useState(false);
 
-  const handleCustomerTxnModal = (event: boolean) => {
-    setCustomerTxnModal(event);
-  };
   const handleRequestSort = (
     event: React.MouseEvent<unknown>,
     property: keyof Data
@@ -393,7 +388,7 @@ export default function CustomerListTable() {
           <Table
             className={classes.table}
             aria-labelledby="tableTitle"
-            size={size}
+            size={"medium"}
             aria-label="enhanced table"
           >
             <EnhancedTableHead
@@ -410,7 +405,7 @@ export default function CustomerListTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.code} onClick={()=>handleCustomerTxnModal(true)} style={{cursor:'pointer'}}>
+                    <TableRow hover tabIndex={-1} key={row.code}>
                       <TableCell component="th" id={labelId} scope="row">
                         {row.code}
                       </TableCell>
@@ -435,10 +430,6 @@ export default function CustomerListTable() {
           </Table>
         </TableContainer>
       </Paper>
-      <CustomerTxnEnquiryModal
-        open={customerTxnModal}
-        handleModal={handleCustomerTxnModal}
-      />
     </div>
   );
 }

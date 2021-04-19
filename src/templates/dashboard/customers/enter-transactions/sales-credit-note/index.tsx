@@ -3,7 +3,7 @@ import { createStyles, makeStyles, Theme, withStyles } from '@material-ui/core/s
 import { Paper, Grid, Typography, TextField, InputAdornment, Checkbox, FormControlLabel, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableFooter, Button, MenuItem, IconButton } from '@material-ui/core';
 import ClearIcon from '@material-ui/icons/Clear';
 import SaveIcon from '@material-ui/icons/Save';
-import { size } from '../../../../../ui-variables';
+import AddIcon from '@material-ui/icons/Add';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -233,7 +233,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                             id="code" 
                             select label="Code" 
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={code}
                             onChange={handleCodeChange}
                         >
@@ -247,7 +247,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                             id="short-name" 
                             select label="Short Name" 
                             variant="filled" 
-                            size={size} 
+                            size="small" 
                             value={shortName}
                             onChange={handleShortNameChange}>
                             {customerData.map((option) => (
@@ -261,7 +261,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                             select 
                             label="Postcode"
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={postcode}
                             onChange={handlePostcodeChange}>
                             {customerData.map((option) => (
@@ -279,7 +279,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={creditLimit}
                             />
                         <TextField
@@ -289,7 +289,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={balance}
                         />
                         <TextField
@@ -299,7 +299,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={availableCredit}
                         />                             
                     </Grid>
@@ -319,17 +319,17 @@ const SalesCreditNote: React.FC<{}> = () => {
                             type="date"
                             defaultValue="2017-05-24"
                             variant="filled"
-                            size={size}/>
+                            size="small"/>
                         <TextField
                             id="reference"
                             label="Reference"
                             variant="filled"
-                            size={size}/>   
+                            size="small"/>   
                         <TextField
                             id="sec-reference"
                             label="Second ref"
                             variant="filled"
-                            size={size}/>
+                            size="small"/>
                     </Grid>
                 </form>
             </Paper>
@@ -348,7 +348,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.GoodsValue||''}
                         />
                         <TextField 
@@ -358,7 +358,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                             InputProps={{
                                 endAdornment: <InputAdornment position='end'>%</InputAdornment>,
                             }}
-                            size={size}
+                            size="small"
                             value={transaction?.DiscountPercent ||''}
                         />
                         <FormControlLabel
@@ -389,7 +389,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                             id="dicount-days"
                             label="Discount days"
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.DiscountDays ||''}
                         />
                         <TextField
@@ -399,7 +399,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.DiscountValue ||''}
                             />
                         <TextField
@@ -409,7 +409,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.VATDiscount ||''}
                         />                      
                     </Grid>
@@ -421,7 +421,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.VATValue ||''}
                         />  
                         <TextField
@@ -431,7 +431,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.CreditNoteTotal ||''}
                         />
                         <TextField
@@ -441,7 +441,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                                 startAdornment: <InputAdornment position='start'>£</InputAdornment>,
                             }}
                             variant="filled"
-                            size={size}
+                            size="small"
                             value={transaction?.DiscCreditTotal ||''}
                         />                        
                     </Grid>
@@ -454,7 +454,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                     VAT analysis
                 </Typography>   
                 <TableContainer >
-                <Table aria-label="customized table" size={size}>
+                <Table aria-label="customized table" size="small">
                     <TableHead>
                     <TableRow>
                         <StyledTableCell>Code</StyledTableCell>
@@ -481,7 +481,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                         </StyledTableRow>
                     ))}
                     </TableBody>
-                    {/* <IconButton size={size}>
+                    {/* <IconButton size="small">
                         <AddIcon />
                     </IconButton> */}
                     <TableFooter style={{borderTop:'2px solid rgba(0,0,0,0.3)'}}>
@@ -515,7 +515,7 @@ const SalesCreditNote: React.FC<{}> = () => {
                     Nominial analysis
                 </Typography>   
                 <TableContainer>
-                  <Table aria-label="customized table" size={size}>
+                  <Table aria-label="customized table" size="small">
                     <TableHead>
                         <TableRow>
                             <StyledTableCell>Code</StyledTableCell>
