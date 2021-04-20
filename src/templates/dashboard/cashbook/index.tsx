@@ -23,6 +23,8 @@ import UnspreadCheque from "./bank-account-reports/unpresented-cheques-payment";
 
 import CreateBankAcccount from "./create-amend-accounts/create-bank-account";
 import AmendBankAccount from "./create-amend-accounts/amend-bank-account-details";
+import TransactionEnquiries from "./bank-account-enquiries/transaction-enquiries";
+import StandingOrderAndDebit from "./bank-account-enquiries/standing-orders-and-direct-debits-enquiry";
 // route prifix "/dashboard/cashbook"
 const Routes: React.FC<{ match: any }> = ({ match }) => (
   <>
@@ -148,6 +150,17 @@ const Routes: React.FC<{ match: any }> = ({ match }) => (
         exact
         path={`${match.url}/create-amend-accounts/amend-bank-account-details`}
         component={AmendBankAccount}
+      />
+      <Route
+        exact
+        path={`${match.url}/bank-account-enquiries/transaction-enquiries`}
+        component={TransactionEnquiries}
+      />
+
+      <Route
+        exact
+        path={`${match.url}/bank-account-enquiries/standing-orders-and-direct-debits-enquiry`}
+        component={StandingOrderAndDebit}
       />
     </Switch>
   </>
