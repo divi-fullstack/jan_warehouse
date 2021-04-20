@@ -109,7 +109,6 @@
   {
     "name": "Bank Account Reports",
     "items": [
-
       {
         "name": "Account Details Report",
         "link": "/dashboard/cashbook/bank-account-report/account-details-report"

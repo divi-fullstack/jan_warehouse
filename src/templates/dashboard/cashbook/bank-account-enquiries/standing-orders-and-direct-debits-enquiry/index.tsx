@@ -5,7 +5,11 @@ import Grid from "@material-ui/core/Grid";
 import MenuItem from "@material-ui/core/MenuItem";
 import Select from "@material-ui/core/Select";
 import TextField from "@material-ui/core/TextField";
-
+import FormControl from "@material-ui/core/FormControl";
+import InputLabel from "@material-ui/core/InputLabel";
+import TransactionTable from "./TransactionTable";
+import NominalTable from "./NominalTable";
+import Button from "@material-ui/core/Button";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -20,12 +24,18 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(0.5),
     },
     inputFieldWrapper: { paddingLeft: theme.spacing(4) },
+
     label: {
       fontSize: "15px",
-      fontWeight: "bold",
       paddingTop: theme.spacing(2),
     },
-    tableWrapper: {},
+    tableWrapper: { padding: theme.spacing(2) },
+    formControl: {
+      minWidth: 300,
+    },
+    buttonWrapper: {
+      margin: theme.spacing(3),
+    },
   })
 );
 
@@ -35,7 +45,7 @@ export default function StandingOrderAndDebit() {
 
   return (
     <div className={classes.root}>
-      <Grid spacing={3}>
+      <Grid>
         <Grid item xs={12}>
           <Typography className={classes.NEHeader}>Account Selection</Typography>
           <div className={classes.inputFieldWrapper}>
@@ -52,7 +62,30 @@ export default function StandingOrderAndDebit() {
             <TextField id='code-consolidated' variant='outlined' size='small' />
           </div>
         </Grid>
-        <Grid item xs={12}></Grid>
+        <Grid item xs={12}>
+          <Typography className={classes.NEHeader}>
+            Standing Order/Direct Debit Details
+          </Typography>
+          <div className={classes.tableWrapper}>
+            <TransactionTable />
+          </div>
+        </Grid>
+        <Grid item>
+          <Typography className={classes.NEHeader}>Payments Details</Typography>
+          <Grid item lg={12}>
+            <div className={classes.tableWrapper}>
+              <NominalTable />
+            </div>
+          </Grid>
+        </Grid>
+        <div>
+          <Button variant='contained' className={classes.buttonWrapper}>
+            Print
+          </Button>
+          <Button variant='contained' color='primary' className={classes.buttonWrapper}>
+            Close
+          </Button>
+        </div>
       </Grid>
     </div>
   );

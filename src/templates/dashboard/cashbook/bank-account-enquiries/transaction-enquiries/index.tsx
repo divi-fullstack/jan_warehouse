@@ -5,48 +5,11 @@ import Grid from "@material-ui/core/Grid";
 import MenuItem from "@material-ui/core/MenuItem";
 import Select from "@material-ui/core/Select";
 import TextField from "@material-ui/core/TextField";
-import AppBar from "@material-ui/core/AppBar";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
-import Box from "@material-ui/core/Box";
-import AccountDeatils from "./AccountDetails";
-import Contacts from "./Contact";
-import AttachmentBalance from "./AttachmentBalance";
-import EBanking from "./EBanking";
-import Attachments from "./Attachments";
-import Memos from "./Memos";
-interface TabPanelProps {
-  children?: React.ReactNode;
-  dir?: string;
-  index: any;
-  value: any;
-}
-
-function TabPanel(props: TabPanelProps) {
-  const { children, value, index, ...other } = props;
-  return (
-    <div
-      role='tabpanel'
-      hidden={value !== index}
-      id={`full-width-tabpanel-${index}`}
-      aria-labelledby={`full-width-tab-${index}`}
-      {...other}>
-      {value === index && (
-        <Box p={3}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
-    </div>
-  );
-}
-
-function a11yProps(index: any) {
-  return {
-    id: `full-width-tab-${index}`,
-    "aria-controls": `full-width-tabpanel-${index}`,
-  };
-}
-
+import FormControl from "@material-ui/core/FormControl";
+import InputLabel from "@material-ui/core/InputLabel";
+import TransactionTable from "./TransactionTable";
+import NominalTable from "./NominalTable";
+import Button from "@material-ui/core/Button";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -61,26 +24,28 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(0.5),
     },
     inputFieldWrapper: { paddingLeft: theme.spacing(4) },
+
     label: {
       fontSize: "15px",
-      fontWeight: "bold",
       paddingTop: theme.spacing(2),
     },
-    tableWrapper: {},
+    tableWrapper: { padding: theme.spacing(2) },
+    formControl: {
+      minWidth: 300,
+    },
+    buttonWrapper: {
+      margin: theme.spacing(3),
+    },
   })
 );
 
-export default function TransactionEnquiries() {
+export default function TransactionEnquiry() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
   const theme = useTheme();
-  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setValue(newValue);
-  };
 
   return (
     <div className={classes.root}>
-      <Grid spacing={3}>
+      <Grid>
         <Grid item xs={12}>
           <Typography className={classes.NEHeader}>Account Selection</Typography>
           <div className={classes.inputFieldWrapper}>
@@ -96,54 +61,74 @@ export default function TransactionEnquiries() {
             <TextField id='code-consolidated' variant='outlined' size='small' />
             <TextField id='code-consolidated' variant='outlined' size='small' />
           </div>
+          <Typography className={classes.NEHeader}>Transaction Selection</Typography>
+          <div className={classes.inputFieldWrapper}>
+            <FormControl variant='outlined' className={classes.formControl}>
+              <InputLabel id='demo-simple-select-outlined-label'>Filter</InputLabel>
+              <Select
+                labelId='demo-simple-select-outlined-label'
+                id='demo-simple-select-outlined'
+                label='Filter'>
+                <MenuItem value=''>
+                  <em>None</em>
+                </MenuItem>
+                <MenuItem value={"No Filter"}>No Filter</MenuItem>
+                <MenuItem value={"Filter By Date"}>Filter By Date</MenuItem>
+              </Select>
+            </FormControl>
+          </div>
         </Grid>
         <Grid item xs={12}>
-          <AppBar
-            position='static'
-            color='default'
-            style={{ width: "100%", marginTop: "15px" }}>
-            <Tabs
-              value={value}
-              onChange={handleChange}
-              indicatorColor='primary'
-              textColor='primary'
-              variant='fullWidth'
-              aria-label='full width tabs example'
-              className={classes.tableWrapper}>
-              <Tab label='Account Details' {...a11yProps(0)} />
-              <Tab label='Contacts' {...a11yProps(1)} />
-
-              <Tab label='Attachment Balance' {...a11yProps(2)} />
-              <Tab label='E-Banking' {...a11yProps(3)} />
-
-              <Tab label='Attachments' {...a11yProps(4)} />
-              <Tab label='Memos' {...a11yProps(5)} />
-            </Tabs>
-          </AppBar>
-
-          <TabPanel value={value} index={0} dir={theme.direction}>
-            <AccountDeatils />
-          </TabPanel>
-
-          <TabPanel value={value} index={1} dir={theme.direction}>
-            <Contacts />
-          </TabPanel>
-
-          <TabPanel value={value} index={2} dir={theme.direction}>
-            <AttachmentBalance />
-          </TabPanel>
-
-          <TabPanel value={value} index={3} dir={theme.direction}>
-            <EBanking />
-          </TabPanel>
-
-          <TabPanel value={value} index={4} dir={theme.direction}>
-            <Attachments />
-          </TabPanel>
-          <TabPanel value={value} index={5} dir={theme.direction}>
-            <Memos />
-          </TabPanel>
+          <Typography className={classes.NEHeader}>Transactions</Typography>
+          <div className={classes.tableWrapper}>
+            <TransactionTable />
+          </div>
         </Grid>
+        <Grid item>
+          <Typography className={classes.NEHeader}>Nominal Detail</Typography>
+          <Grid item lg={12}>
+            <div className={classes.tableWrapper}>
+              <NominalTable />
+            </div>
+          </Grid>
+          <Grid item lg={4}>
+            <div className={classes.inputFieldWrapper}>
+              <FormControl variant='outlined' className={classes.formControl}>
+                <InputLabel id='demo-simple-select-outlined-label'>
+                  Select DrillDown
+                </InputLabel>
+                <Select
+                  labelId='demo-simple-select-outlined-label'
+                  id='demo-simple-select-outlined'
+                  label='Select DrillDown'>
+                  <MenuItem value=''>
+                    <em>None</em>
+                  </MenuItem>
+                  <MenuItem value={"Nominal"}>Nominal</MenuItem>
+                </Select>
+              </FormControl>
+            </div>
+            <div className={classes.inputFieldWrapper}>
+              <Button
+                variant='contained'
+                color='primary'
+                className={classes.buttonWrapper}>
+                Print DrillDown
+              </Button>
+            </div>
+          </Grid>
+        </Grid>
+        <div>
+          <Button variant='contained' className={classes.buttonWrapper}>
+            Account Enquiry
+          </Button>
+          <Button variant='contained' color='primary' className={classes.buttonWrapper}>
+            Find
+          </Button>
+          <Button variant='contained' className={classes.buttonWrapper}>
+            Print
+          </Button>
+        </div>
       </Grid>
     </div>
   );

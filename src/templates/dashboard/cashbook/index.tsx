@@ -25,6 +25,7 @@ import CreateBankAcccount from "./create-amend-accounts/create-bank-account";
 import AmendBankAccount from "./create-amend-accounts/amend-bank-account-details";
 import TransactionEnquiries from "./bank-account-enquiries/transaction-enquiries";
 import StandingOrderAndDebit from "./bank-account-enquiries/standing-orders-and-direct-debits-enquiry";
+import BankAccountEnquiry from "./bank-account-enquiries/bank-account-enquiry";
 // route prifix "/dashboard/cashbook"
 const Routes: React.FC<{ match: any }> = ({ match }) => (
   <>
@@ -150,6 +151,11 @@ const Routes: React.FC<{ match: any }> = ({ match }) => (
         exact
         path={`${match.url}/create-amend-accounts/amend-bank-account-details`}
         component={AmendBankAccount}
+      />
+      <Route
+        exact
+        path={`${match.url}/bank-account-enquiries/bank-account-enquiry`}
+        component={BankAccountEnquiry}
       />
       <Route
         exact
