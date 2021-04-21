@@ -11,24 +11,27 @@ import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
 
 interface Data {
-  date: string;
-  pages: string;
-  statementBalance: string;
+  statementDate: string;
+  pageNumber: string;
+  closingBalance: string;
 }
 
-function createData(date: string, pages: string, statementBalance: string): Data {
+function createData(
+  statementDate: string,
+  pageNumber: string,
+  closingBalance: string
+): Data {
   return {
-    date,
-    pages,
-    statementBalance,
+    statementDate,
+    pageNumber,
+    closingBalance,
   };
 }
 
 const rows = [
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
+  createData("20/01/2020", "05", "1234"),
+  createData("20/01/2020", "05", "1234"),
+  createData("20/01/2020", "05", "1234"),
 ];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
@@ -74,22 +77,22 @@ interface HeadCell {
 
 const headCells: HeadCell[] = [
   {
-    id: "date",
+    id: "statementDate",
     numeric: false,
     disablePadding: false,
-    label: "Date",
+    label: "Statement Date",
   },
   {
-    id: "pages",
-    numeric: true,
+    id: "pageNumber",
+    numeric: false,
     disablePadding: false,
-    label: "Pages",
+    label: "Page Number",
   },
   {
-    id: "statementBalance",
-    numeric: true,
+    id: "closingBalance",
+    numeric: false,
     disablePadding: false,
-    label: "Statement Balance",
+    label: "Closing Balance",
   },
 ];
 
@@ -146,7 +149,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginBottom: theme.spacing(2),
     },
     table: {
-      minWidth: 700,
+      minWidth: 750,
     },
     visuallyHidden: {
       border: 0,
@@ -162,12 +165,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function StatementBalanceTable() {
+export default function NominalListTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("date");
+  const [orderBy, setOrderBy] = React.useState<keyof Data>("statementDate");
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
   const handleRequestSort = (event: React.MouseEvent<unknown>, property: keyof Data) => {
     const isAsc = orderBy === property && order === "asc";
@@ -218,12 +221,12 @@ export default function StatementBalanceTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.date}>
+                    <TableRow hover tabIndex={-1}>
                       <TableCell component='th' id={labelId} scope='row'>
-                        {row.date}
+                        {row.statementDate}
                       </TableCell>
-                      <TableCell align='right'>{row.pages}</TableCell>
-                      <TableCell align='right'>{row.statementBalance}</TableCell>
+                      <TableCell align='right'>{row.pageNumber}</TableCell>
+                      <TableCell align='right'>{row.closingBalance}</TableCell>
                     </TableRow>
                   );
                 })}

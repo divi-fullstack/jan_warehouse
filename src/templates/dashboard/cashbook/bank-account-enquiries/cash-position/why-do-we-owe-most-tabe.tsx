@@ -11,25 +11,60 @@ import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
 
 interface Data {
-  date: string;
-  pages: string;
-  statementBalance: string;
+  account: string;
+  outstandingValue: string;
+  outstandingValue2: string;
+  daysOverDue: string;
+  goodValueCurrent: string;
+  goodValue: string;
+  allocatedValueCurrent: string;
+  allocatedValue: string;
+  outstandingValue3: string;
+  outstandingValue4: string;
+  transactionDate: string;
+  transactionDueDate: string;
+  transactiontype: string;
+  goodsValueBase: string;
+  goodsValueBase2: string;
 }
 
-function createData(date: string, pages: string, statementBalance: string): Data {
+function createData(
+  account: string,
+  outstandingValue: string,
+  outstandingValue2: string,
+  daysOverDue: string,
+  goodValueCurrent: string,
+  goodValue: string,
+  allocatedValueCurrent: string,
+  allocatedValue: string,
+  outstandingValue3: string,
+  outstandingValue4: string,
+  transactionDate: string,
+  transactionDueDate: string,
+  transactiontype: string,
+  goodsValueBase: string,
+  goodsValueBase2: string
+): Data {
   return {
-    date,
-    pages,
-    statementBalance,
+    account,
+    outstandingValue,
+    outstandingValue2,
+    daysOverDue,
+    goodValueCurrent,
+    goodValue,
+    allocatedValueCurrent,
+    allocatedValue,
+    outstandingValue3,
+    outstandingValue4,
+    transactionDate,
+    transactionDueDate,
+    transactiontype,
+    goodsValueBase,
+    goodsValueBase2,
   };
 }
 
-const rows = [
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-];
+const rows = [createData("", "", "", "", "", "", "", "", "", "", "", "", "", "", "")];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
   if (b[orderBy] < a[orderBy]) {
@@ -74,22 +109,88 @@ interface HeadCell {
 
 const headCells: HeadCell[] = [
   {
-    id: "date",
+    id: "account",
     numeric: false,
     disablePadding: false,
-    label: "Date",
+    label: "Mears Insurance",
   },
   {
-    id: "pages",
-    numeric: true,
+    id: "outstandingValue",
+    numeric: false,
     disablePadding: false,
-    label: "Pages",
+    label: "Outstanding Value",
   },
   {
-    id: "statementBalance",
-    numeric: true,
+    id: "outstandingValue2",
+    numeric: false,
     disablePadding: false,
-    label: "Statement Balance",
+    label: "Outstanding value ",
+  },
+  {
+    id: "daysOverDue",
+    numeric: false,
+    disablePadding: false,
+    label: "Days Over Due",
+  },
+  {
+    id: "goodValueCurrent",
+    numeric: false,
+    disablePadding: false,
+    label: "Good value Current",
+  },
+  {
+    id: "goodValue",
+    numeric: false,
+    disablePadding: false,
+    label: "Good Values",
+  },
+  {
+    id: "allocatedValueCurrent",
+    numeric: false,
+    disablePadding: false,
+    label: "Allocated Value Current",
+  },
+  {
+    id: "allocatedValue",
+    numeric: false,
+    disablePadding: false,
+    label: "Allocated Value",
+  },
+  {
+    id: "outstandingValue3",
+    numeric: false,
+    disablePadding: false,
+    label: "Outstanding Value ",
+  },
+  {
+    id: "outstandingValue4",
+    numeric: false,
+    disablePadding: false,
+    label: "Outstanding Value",
+  },
+  {
+    id: "transactionDate",
+    numeric: false,
+    disablePadding: false,
+    label: "Transaction Date",
+  },
+  {
+    id: "transactiontype",
+    numeric: false,
+    disablePadding: false,
+    label: "Transaction Type",
+  },
+  {
+    id: "goodsValueBase",
+    numeric: false,
+    disablePadding: false,
+    label: "Good value base",
+  },
+  {
+    id: "goodsValueBase2",
+    numeric: false,
+    disablePadding: false,
+    label: "Good Value Base",
   },
 ];
 
@@ -146,7 +247,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginBottom: theme.spacing(2),
     },
     table: {
-      minWidth: 700,
+      minWidth: 750,
     },
     visuallyHidden: {
       border: 0,
@@ -162,12 +263,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function StatementBalanceTable() {
+export default function NominalListTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("date");
+  const [orderBy, setOrderBy] = React.useState<keyof Data>("transactionDate");
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
   const handleRequestSort = (event: React.MouseEvent<unknown>, property: keyof Data) => {
     const isAsc = orderBy === property && order === "asc";
@@ -218,12 +319,24 @@ export default function StatementBalanceTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.date}>
+                    <TableRow hover tabIndex={-1}>
                       <TableCell component='th' id={labelId} scope='row'>
-                        {row.date}
+                        {row.account}
                       </TableCell>
-                      <TableCell align='right'>{row.pages}</TableCell>
-                      <TableCell align='right'>{row.statementBalance}</TableCell>
+                      <TableCell align='right'>{row.outstandingValue}</TableCell>
+                      <TableCell align='right'>{row.outstandingValue2}</TableCell>
+                      <TableCell align='right'>{row.daysOverDue}</TableCell>
+                      <TableCell align='right'>{row.goodValueCurrent}</TableCell>
+                      <TableCell align='right'>{row.goodValue}</TableCell>
+                      <TableCell align='right'>{row.allocatedValueCurrent}</TableCell>
+                      <TableCell align='right'>{row.allocatedValue}</TableCell>
+                      <TableCell align='right'>{row.outstandingValue3}</TableCell>
+                      <TableCell align='right'>{row.outstandingValue4}</TableCell>
+                      <TableCell align='right'>{row.transactionDate}</TableCell>
+                      <TableCell align='right'>{row.transactionDueDate}</TableCell>
+                      <TableCell align='right'>{row.transactiontype}</TableCell>
+                      <TableCell align='right'>{row.goodsValueBase}</TableCell>
+                      <TableCell align='right'>{row.goodsValueBase2}</TableCell>
                     </TableRow>
                   );
                 })}

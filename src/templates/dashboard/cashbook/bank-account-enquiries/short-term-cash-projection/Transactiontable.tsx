@@ -11,24 +11,87 @@ import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
 
 interface Data {
-  date: string;
-  pages: string;
-  statementBalance: string;
+  type: string;
+  forecast: string;
+  due: string;
+  code: string;
+  details: string;
+  overdue: string;
+  query: string;
+  include: string;
+  receipts: string;
+  payments: string;
+  balanceForDate: string;
 }
 
-function createData(date: string, pages: string, statementBalance: string): Data {
+function createData(
+  type: string,
+  forecast: string,
+  due: string,
+  code: string,
+  details: string,
+  overdue: string,
+  query: string,
+  include: string,
+  receipts: string,
+  payments: string,
+  balanceForDate: string
+): Data {
   return {
-    date,
-    pages,
-    statementBalance,
+    type,
+    forecast,
+    due,
+    code,
+    details,
+    overdue,
+    query,
+    include,
+    receipts,
+    payments,
+    balanceForDate,
   };
 }
 
 const rows = [
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
+  createData(
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummmy"
+  ),
+  createData(
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy"
+  ),
+  createData(
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummy",
+    "dummmy",
+    "dummy"
+  ),
 ];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
@@ -74,22 +137,64 @@ interface HeadCell {
 
 const headCells: HeadCell[] = [
   {
-    id: "date",
+    id: "type",
     numeric: false,
     disablePadding: false,
-    label: "Date",
+    label: "Type",
   },
   {
-    id: "pages",
-    numeric: true,
+    id: "forecast",
+    numeric: false,
     disablePadding: false,
-    label: "Pages",
+    label: "Forecast",
   },
   {
-    id: "statementBalance",
-    numeric: true,
+    id: "due",
+    numeric: false,
     disablePadding: false,
-    label: "Statement Balance",
+    label: "Code",
+  },
+  {
+    id: "details",
+    numeric: false,
+    disablePadding: false,
+    label: "Details",
+  },
+  {
+    id: "overdue",
+    numeric: false,
+    disablePadding: false,
+    label: "Overdue",
+  },
+  {
+    id: "query",
+    numeric: false,
+    disablePadding: false,
+    label: "Query",
+  },
+  {
+    id: "include",
+    numeric: false,
+    disablePadding: false,
+    label: "include",
+  },
+  {
+    id: "receipts",
+    numeric: false,
+    disablePadding: false,
+    label: "Receipts",
+  },
+  {
+    id: "payments",
+    numeric: false,
+    disablePadding: false,
+    label: "Payments",
+  },
+  {
+    id: "balanceForDate",
+    numeric: false,
+    disablePadding: false,
+    label: "Balance For Date",
   },
 ];
 
@@ -146,7 +251,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginBottom: theme.spacing(2),
     },
     table: {
-      minWidth: 700,
+      minWidth: 750,
     },
     visuallyHidden: {
       border: 0,
@@ -162,12 +267,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function StatementBalanceTable() {
+export default function SummaryTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("date");
+  const [orderBy, setOrderBy] = React.useState<keyof Data>("type");
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
   const handleRequestSort = (event: React.MouseEvent<unknown>, property: keyof Data) => {
     const isAsc = orderBy === property && order === "asc";
@@ -218,12 +323,20 @@ export default function StatementBalanceTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.date}>
+                    <TableRow hover tabIndex={-1}>
                       <TableCell component='th' id={labelId} scope='row'>
-                        {row.date}
+                        {row.type}
                       </TableCell>
-                      <TableCell align='right'>{row.pages}</TableCell>
-                      <TableCell align='right'>{row.statementBalance}</TableCell>
+                      <TableCell align='right'>{row.forecast}</TableCell>
+                      <TableCell align='right'>{row.due}</TableCell>
+                      <TableCell align='right'>{row.code}</TableCell>
+                      <TableCell align='right'>{row.details}</TableCell>
+                      <TableCell align='right'>{row.overdue}</TableCell>
+                      <TableCell align='right'>{row.include}</TableCell>
+
+                      <TableCell align='right'>{row.receipts}</TableCell>
+                      <TableCell align='right'>{row.payments}</TableCell>
+                      <TableCell align='right'>{row.balanceForDate}</TableCell>
                     </TableRow>
                   );
                 })}

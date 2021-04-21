@@ -11,24 +11,37 @@ import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
 
 interface Data {
-  date: string;
-  pages: string;
-  statementBalance: string;
+  code: string;
+  bankName: string;
+  balance: string;
+  overdraft: string;
+  limit: string;
+  include: string;
 }
 
-function createData(date: string, pages: string, statementBalance: string): Data {
+function createData(
+  code: string,
+  bankName: string,
+  balance: string,
+  overdraft: string,
+  limit: string,
+  include: string
+): Data {
   return {
-    date,
-    pages,
-    statementBalance,
+    code,
+    bankName,
+    balance,
+    overdraft,
+    limit,
+    include,
   };
 }
 
 const rows = [
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
+  createData("dummy", "dummy", "dummy", "dummy", "dummy", "dummy"),
+  createData("dummy", "dummy", "dummy", "dummy", "dummy", "dummy"),
+  createData("dummy", "dummy", "dummy", "dummy", "dummy", "dummy"),
+  createData("dummy", "dummy", "dummy", "dummy", "dummy", "dummy"),
 ];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
@@ -74,22 +87,40 @@ interface HeadCell {
 
 const headCells: HeadCell[] = [
   {
-    id: "date",
+    id: "code",
     numeric: false,
     disablePadding: false,
-    label: "Date",
+    label: "Code",
   },
   {
-    id: "pages",
+    id: "bankName",
     numeric: true,
     disablePadding: false,
-    label: "Pages",
+    label: "Bank Name",
   },
   {
-    id: "statementBalance",
+    id: "balance",
     numeric: true,
     disablePadding: false,
-    label: "Statement Balance",
+    label: "Balance",
+  },
+  {
+    id: "overdraft",
+    numeric: true,
+    disablePadding: false,
+    label: "Over Draft",
+  },
+  {
+    id: "limit",
+    numeric: true,
+    disablePadding: false,
+    label: "Limit",
+  },
+  {
+    id: "include",
+    numeric: true,
+    disablePadding: false,
+    label: "Include",
   },
 ];
 
@@ -146,7 +177,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginBottom: theme.spacing(2),
     },
     table: {
-      minWidth: 700,
+      minWidth: 750,
     },
     visuallyHidden: {
       border: 0,
@@ -162,12 +193,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function StatementBalanceTable() {
+export default function AccountsTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("date");
+  const [orderBy, setOrderBy] = React.useState<keyof Data>("code");
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
   const handleRequestSort = (event: React.MouseEvent<unknown>, property: keyof Data) => {
     const isAsc = orderBy === property && order === "asc";
@@ -218,12 +249,15 @@ export default function StatementBalanceTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.date}>
+                    <TableRow hover tabIndex={-1} key={row.code}>
                       <TableCell component='th' id={labelId} scope='row'>
-                        {row.date}
+                        {row.code}
                       </TableCell>
-                      <TableCell align='right'>{row.pages}</TableCell>
-                      <TableCell align='right'>{row.statementBalance}</TableCell>
+                      <TableCell align='right'>{row.bankName}</TableCell>
+                      <TableCell align='right'>{row.balance}</TableCell>
+                      <TableCell align='right'>{row.overdraft}</TableCell>
+                      <TableCell align='right'>{row.limit}</TableCell>
+                      <TableCell align='right'>{row.include}</TableCell>
                     </TableRow>
                   );
                 })}

@@ -11,25 +11,33 @@ import TableSortLabel from "@material-ui/core/TableSortLabel";
 import Paper from "@material-ui/core/Paper";
 
 interface Data {
-  date: string;
-  pages: string;
-  statementBalance: string;
+  transactionDate: string;
+  statementDate: string;
+  pageNumber: string;
+  reference: string;
+  secondReference: string;
+  value: string;
 }
 
-function createData(date: string, pages: string, statementBalance: string): Data {
+function createData(
+  transactionDate: string,
+  statementDate: string,
+  pageNumber: string,
+  reference: string,
+  secondReference: string,
+  value: string
+): Data {
   return {
-    date,
-    pages,
-    statementBalance,
+    transactionDate,
+    statementDate,
+    pageNumber,
+    reference,
+    secondReference,
+    value,
   };
 }
 
-const rows = [
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-  createData("dummy", "dummy", "dummy"),
-];
+const rows = [createData("", "", "", "", "", ""), createData("", "", "", "", "", "")];
 
 function descendingComparator<T>(a: T, b: T, orderBy: keyof T) {
   if (b[orderBy] < a[orderBy]) {
@@ -74,22 +82,40 @@ interface HeadCell {
 
 const headCells: HeadCell[] = [
   {
-    id: "date",
+    id: "transactionDate",
     numeric: false,
     disablePadding: false,
-    label: "Date",
+    label: "Transaction Date",
   },
   {
-    id: "pages",
-    numeric: true,
+    id: "statementDate",
+    numeric: false,
     disablePadding: false,
-    label: "Pages",
+    label: "Statement Date",
   },
   {
-    id: "statementBalance",
-    numeric: true,
+    id: "pageNumber",
+    numeric: false,
     disablePadding: false,
-    label: "Statement Balance",
+    label: "Page Number",
+  },
+  {
+    id: "reference",
+    numeric: false,
+    disablePadding: false,
+    label: "Reference",
+  },
+  {
+    id: "secondReference",
+    numeric: false,
+    disablePadding: false,
+    label: "Second Reference",
+  },
+  {
+    id: "value",
+    numeric: false,
+    disablePadding: false,
+    label: "value",
   },
 ];
 
@@ -146,7 +172,7 @@ const useStyles = makeStyles((theme: Theme) =>
       marginBottom: theme.spacing(2),
     },
     table: {
-      minWidth: 700,
+      minWidth: 750,
     },
     visuallyHidden: {
       border: 0,
@@ -162,12 +188,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function StatementBalanceTable() {
+export default function NominalListTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("date");
+  const [orderBy, setOrderBy] = React.useState<keyof Data>("transactionDate");
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  const [rowsPerPage, setRowsPerPage] = React.useState(5);
 
   const handleRequestSort = (event: React.MouseEvent<unknown>, property: keyof Data) => {
     const isAsc = orderBy === property && order === "asc";
@@ -218,12 +244,15 @@ export default function StatementBalanceTable() {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={row.date}>
+                    <TableRow hover tabIndex={-1}>
                       <TableCell component='th' id={labelId} scope='row'>
-                        {row.date}
+                        {row.transactionDate}
                       </TableCell>
-                      <TableCell align='right'>{row.pages}</TableCell>
-                      <TableCell align='right'>{row.statementBalance}</TableCell>
+                      <TableCell align='right'>{row.statementDate}</TableCell>
+                      <TableCell align='right'>{row.pageNumber}</TableCell>
+                      <TableCell align='right'>{row.reference}</TableCell>
+                      <TableCell align='right'>{row.secondReference}</TableCell>
+                      <TableCell align='right'>{row.value}</TableCell>
                     </TableRow>
                   );
                 })}

@@ -26,6 +26,10 @@ import AmendBankAccount from "./create-amend-accounts/amend-bank-account-details
 import TransactionEnquiries from "./bank-account-enquiries/transaction-enquiries";
 import StandingOrderAndDebit from "./bank-account-enquiries/standing-orders-and-direct-debits-enquiry";
 import BankAccountEnquiry from "./bank-account-enquiries/bank-account-enquiry";
+import ShortTermCashProjection from "./bank-account-enquiries/short-term-cash-projection";
+import BankTransactionEnquiry from "./bank-account-enquiries/bank-txn-enquiry";
+import BankStandingOrder from "./bank-account-enquiries/bank-standing-orders-and-direct-debits";
+import CashPosition from "./bank-account-enquiries/cash-position";
 // route prifix "/dashboard/cashbook"
 const Routes: React.FC<{ match: any }> = ({ match }) => (
   <>
@@ -167,6 +171,24 @@ const Routes: React.FC<{ match: any }> = ({ match }) => (
         exact
         path={`${match.url}/bank-account-enquiries/standing-orders-and-direct-debits-enquiry`}
         component={StandingOrderAndDebit}
+      />
+      <Route
+        exact
+        path={`${match.url}/bank-account-enquiries/short-term-cash-projection`}
+        component={ShortTermCashProjection}
+      />
+      <Route
+        exact
+        path={`${match.url}/bank-account-enquiries/bank-txn-enquiry`}
+        component={BankTransactionEnquiry}
+      />
+      <Route
+        path={`${match.url}/bank-account-enquiries/bank-standing-orders-and-direct-debits`}
+        component={BankStandingOrder}
+      />
+      <Route
+        path={`${match.url}/bank-account-enquiries/cash-position`}
+        component={CashPosition}
       />
     </Switch>
   </>
